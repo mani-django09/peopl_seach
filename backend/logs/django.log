@@ -1,0 +1,775 @@
+INFO 2025-09-26 23:51:58,275 autoreload 9676 23372 Watching for file changes with StatReloader
+INFO 2025-09-26 23:59:43,610 autoreload 26552 26204 Watching for file changes with StatReloader
+INFO 2025-09-27 00:01:11,105 autoreload 26552 26204 C:\Users\manik\OneDrive\Desktop\reverse-phone-lookup\backend\lookup\admin.py changed, reloading.
+INFO 2025-09-27 00:01:13,129 autoreload 27824 25280 Watching for file changes with StatReloader
+INFO 2025-09-27 00:03:00,396 autoreload 20304 25584 Watching for file changes with StatReloader
+INFO 2025-09-27 00:03:28,042 autoreload 14076 16604 Watching for file changes with StatReloader
+INFO 2025-09-27 00:04:01,645 autoreload 23536 32544 Watching for file changes with StatReloader
+INFO 2025-09-27 01:34:55,497 autoreload 24856 31776 Watching for file changes with StatReloader
+INFO 2025-09-27 01:35:00,224 basehttp 24856 13692 "GET / HTTP/1.1" 200 10664
+WARNING 2025-09-27 01:35:01,160 log 24856 13692 Not Found: /favicon.ico
+WARNING 2025-09-27 01:35:01,160 basehttp 24856 13692 "GET /favicon.ico HTTP/1.1" 404 2120
+WARNING 2025-09-27 01:36:11,935 log 24856 20536 Not Found: /api/search/phone/5551234567/
+WARNING 2025-09-27 01:36:11,955 basehttp 24856 20536 "GET /api/search/phone/5551234567/ HTTP/1.1" 404 2171
+WARNING 2025-09-27 01:36:12,712 log 24856 20536 Not Found: /favicon.ico
+WARNING 2025-09-27 01:36:12,712 basehttp 24856 20536 "GET /favicon.ico HTTP/1.1" 404 2120
+WARNING 2025-09-27 01:36:36,251 log 24856 28980 Not Found: /api/health/
+WARNING 2025-09-27 01:36:36,253 basehttp 24856 28980 "GET /api/health/ HTTP/1.1" 404 2120
+INFO 2025-09-27 01:38:35,421 autoreload 24856 31776 C:\Users\manik\OneDrive\Desktop\reverse-phone-lookup\backend\phone_lookup_api\urls.py changed, reloading.
+INFO 2025-09-27 01:38:37,152 autoreload 11388 7888 Watching for file changes with StatReloader
+INFO 2025-09-27 01:39:36,757 autoreload 25932 20760 Watching for file changes with StatReloader
+INFO 2025-09-27 01:39:49,837 autoreload 25932 20760 C:\Users\manik\OneDrive\Desktop\reverse-phone-lookup\backend\lookup\urls.py changed, reloading.
+INFO 2025-09-27 01:39:50,555 autoreload 33732 26208 Watching for file changes with StatReloader
+INFO 2025-09-27 01:39:59,361 autoreload 33732 26208 C:\Users\manik\OneDrive\Desktop\reverse-phone-lookup\backend\lookup\urls.py changed, reloading.
+INFO 2025-09-27 01:39:59,920 autoreload 11132 24260 Watching for file changes with StatReloader
+INFO 2025-09-27 01:41:15,616 autoreload 11132 24260 C:\Users\manik\OneDrive\Desktop\reverse-phone-lookup\backend\lookup\views.py changed, reloading.
+INFO 2025-09-27 01:41:16,443 autoreload 23764 1896 Watching for file changes with StatReloader
+WARNING 2025-09-27 01:41:19,951 log 23764 24148 Not Found: /
+WARNING 2025-09-27 01:41:19,952 basehttp 23764 24148 "GET / HTTP/1.1" 404 2300
+WARNING 2025-09-27 01:41:28,010 log 23764 31928 Not Found: /
+WARNING 2025-09-27 01:41:28,015 basehttp 23764 31928 "GET / HTTP/1.1" 404 2300
+INFO 2025-09-27 01:41:46,066 basehttp 23764 24328 "GET /api/health/ HTTP/1.1" 200 135
+INFO 2025-09-27 01:41:53,390 basehttp 23764 15060 "GET /api/search/phone/5551234567/ HTTP/1.1" 200 380
+INFO 2025-09-27 01:54:05,343 autoreload 25060 2896 Watching for file changes with StatReloader
+WARNING 2025-09-27 01:54:25,055 log 25060 21572 Not Found: /
+WARNING 2025-09-27 01:54:25,056 basehttp 25060 21572 "GET / HTTP/1.1" 404 2300
+INFO 2025-09-27 01:56:04,891 autoreload 11444 28056 Watching for file changes with StatReloader
+WARNING 2025-09-27 01:56:09,208 log 11444 24416 Not Found: /
+WARNING 2025-09-27 01:56:09,208 basehttp 11444 24416 "GET / HTTP/1.1" 404 2300
+INFO 2025-09-27 01:56:21,247 basehttp 11444 20220 "GET /api/test-api/ HTTP/1.1" 200 293
+INFO 2025-09-27 01:58:25,952 autoreload 11444 28056 C:\Users\manik\OneDrive\Desktop\reverse-phone-lookup\backend\lookup\views.py changed, reloading.
+INFO 2025-09-27 01:58:27,233 autoreload 15764 10096 Watching for file changes with StatReloader
+WARNING 2025-09-27 02:01:29,939 log 15764 28416 Not Found: /
+WARNING 2025-09-27 02:01:29,953 basehttp 15764 28416 "GET / HTTP/1.1" 404 2300
+INFO 2025-09-27 02:13:25,497 views 15764 21872 Calling NumVerify API: https://apilayer.net/api/validate with number: 6205710364
+INFO 2025-09-27 02:13:28,629 views 15764 21872 NumVerify response: {'success': False, 'error': {'code': 101, 'type': 'missing_access_key', 'info': 'You have not supplied an API Access Key. [Required format: access_key=YOUR_ACCESS_KEY]'}}
+INFO 2025-09-27 02:13:28,646 basehttp 15764 21872 "GET /api/search/phone/6205710364/ HTTP/1.1" 200 115
+INFO 2025-09-27 02:13:28,841 basehttp 15764 21872 "GET /api/search/phone/6205710364/ HTTP/1.1" 200 114
+INFO 2025-09-27 02:13:28,917 basehttp 15764 21872 "GET /api/search/phone/6205710364/ HTTP/1.1" 200 114
+INFO 2025-09-27 02:14:27,405 basehttp 15764 8716 "GET /api/search/phone/6205710364/ HTTP/1.1" 200 114
+INFO 2025-09-27 02:14:27,478 basehttp 15764 8716 "GET /api/search/phone/6205710364/ HTTP/1.1" 200 114
+INFO 2025-09-27 02:14:27,513 basehttp 15764 8716 "GET /api/search/phone/6205710364/ HTTP/1.1" 200 114
+INFO 2025-09-27 02:15:31,333 views 15764 31532 Calling NumVerify API: https://apilayer.net/api/validate with number: 17182222222
+INFO 2025-09-27 02:15:33,428 views 15764 31532 NumVerify response: {'success': False, 'error': {'code': 101, 'type': 'missing_access_key', 'info': 'You have not supplied an API Access Key. [Required format: access_key=YOUR_ACCESS_KEY]'}}
+INFO 2025-09-27 02:15:33,448 basehttp 15764 31532 "GET /api/search/phone/%2B17182222222/ HTTP/1.1" 200 117
+INFO 2025-09-27 02:15:33,634 basehttp 15764 31532 "GET /api/search/phone/%2B17182222222/ HTTP/1.1" 200 116
+INFO 2025-09-27 02:51:10,709 views 15764 25580 Calling NumVerify API: https://apilayer.net/api/validate with number: 16205710364
+INFO 2025-09-27 02:51:13,716 views 15764 1896 Calling NumVerify API: https://apilayer.net/api/validate with number: 16205710364
+INFO 2025-09-27 02:51:16,140 views 15764 25580 NumVerify response: {'success': False, 'error': {'code': 101, 'type': 'missing_access_key', 'info': 'You have not supplied an API Access Key. [Required format: access_key=YOUR_ACCESS_KEY]'}}
+INFO 2025-09-27 02:51:16,224 basehttp 15764 25580 - Broken pipe from ('127.0.0.1', 59715)
+INFO 2025-09-27 02:51:18,340 views 15764 1896 NumVerify response: {'success': False, 'error': {'code': 101, 'type': 'missing_access_key', 'info': 'You have not supplied an API Access Key. [Required format: access_key=YOUR_ACCESS_KEY]'}}
+INFO 2025-09-27 02:51:18,362 basehttp 15764 1896 "GET /api/search/phone/%2B16205710364/ HTTP/1.1" 200 117
+INFO 2025-09-27 02:54:37,233 basehttp 15764 20976 "GET /api/search/phone/%2B17182222222/ HTTP/1.1" 200 116
+INFO 2025-09-27 02:55:36,405 basehttp 15764 22636 "GET /api/search/phone/%2B17182222222/ HTTP/1.1" 200 116
+INFO 2025-09-27 07:36:51,485 views 15764 30120 Calling NumVerify API: https://apilayer.net/api/validate with number: 17182222222
+ERROR 2025-09-27 07:36:51,698 views 15764 30120 NumVerify API error: HTTPSConnectionPool(host='apilayer.net', port=443): Max retries exceeded with url: /api/validate?access_key=&number=17182222222&format=1 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x00000236D97C0C80>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+INFO 2025-09-27 07:36:51,727 basehttp 15764 30120 "GET /api/search/phone/%2B17182222222/ HTTP/1.1" 200 665
+INFO 2025-09-27 09:03:49,522 views 15764 25572 Calling NumVerify API: https://apilayer.net/api/validate with number: 17182222222
+INFO 2025-09-27 09:03:51,415 views 15764 25572 NumVerify response: {'success': False, 'error': {'code': 101, 'type': 'missing_access_key', 'info': 'You have not supplied an API Access Key. [Required format: access_key=YOUR_ACCESS_KEY]'}}
+INFO 2025-09-27 09:03:51,435 basehttp 15764 25572 "GET /api/search/phone/%2B17182222222/ HTTP/1.1" 200 117
+INFO 2025-09-27 09:13:36,833 basehttp 15764 20916 "GET /api/search/phone/%2B17182222222/ HTTP/1.1" 200 116
+INFO 2025-09-27 10:10:27,328 autoreload 32936 1680 Watching for file changes with StatReloader
+WARNING 2025-09-27 10:10:36,940 log 32936 22168 Not Found: /
+WARNING 2025-09-27 10:10:36,942 basehttp 32936 22168 "GET / HTTP/1.1" 404 2300
+INFO 2025-09-27 10:10:46,160 views 32936 25940 Calling NumVerify API: https://apilayer.net/api/validate with number: 17182222222
+ERROR 2025-09-27 10:10:46,241 views 32936 25940 NumVerify API error: HTTPSConnectionPool(host='apilayer.net', port=443): Max retries exceeded with url: /api/validate?access_key=a7895732207d76b4b7ff0038555dee0d&number=17182222222&format=1 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001E82CB4F740>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+INFO 2025-09-27 10:10:46,241 basehttp 32936 25940 "GET /api/search/phone/%2B17182222222/ HTTP/1.1" 200 697
+INFO 2025-09-27 11:21:29,444 autoreload 268 14724 Watching for file changes with StatReloader
+INFO 2025-09-27 11:21:38,995 views 268 5880 Calling NumVerify API: https://apilayer.net/api/validate with number: 17182222222
+INFO 2025-09-27 11:21:40,803 views 268 5880 NumVerify response: {'valid': True, 'number': '17182222222', 'local_format': '7182222222', 'international_format': '+17182222222', 'country_prefix': '+1', 'country_code': 'US', 'country_name': 'United States of America', 'location': 'Nwyrcyzn06', 'carrier': '', 'line_type': 'landline'}
+INFO 2025-09-27 11:21:40,809 basehttp 268 5880 "GET /api/search/phone/%2B17182222222/ HTTP/1.1" 200 305
+INFO 2025-09-28 23:05:29,627 autoreload 12836 7888 Watching for file changes with StatReloader
+WARNING 2025-09-28 23:05:49,584 log 12836 22828 Not Found: /
+WARNING 2025-09-28 23:05:49,584 basehttp 12836 22828 "GET / HTTP/1.1" 404 2300
+WARNING 2025-09-28 23:11:23,847 log 12836 29548 Bad Request: /api/search/phone/test/
+WARNING 2025-09-28 23:11:23,874 basehttp 12836 29548 "GET /api/search/phone/test/ HTTP/1.1" 400 71
+WARNING 2025-09-28 23:11:30,628 log 12836 13904 Bad Request: /api/search/phone/test/
+WARNING 2025-09-28 23:11:30,635 basehttp 12836 13904 "GET /api/search/phone/test/ HTTP/1.1" 400 71
+WARNING 2025-09-28 23:14:35,561 log 12836 19808 Not Found: /split-pdf/preview/
+WARNING 2025-09-28 23:14:35,586 basehttp 12836 19808 "GET /split-pdf/preview/ HTTP/1.1" 404 2372
+INFO 2025-09-28 23:38:01,739 views 12836 21236 Calling NumVerify API: https://apilayer.net/api/validate with number: 17182222222
+ERROR 2025-09-28 23:38:02,125 views 12836 21236 NumVerify API error: HTTPSConnectionPool(host='apilayer.net', port=443): Max retries exceeded with url: /api/validate?access_key=a7895732207d76b4b7ff0038555dee0d&number=17182222222&format=1 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001C3AC22AC60>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+INFO 2025-09-28 23:38:02,175 basehttp 12836 21236 "GET /api/search/phone/%2B17182222222/ HTTP/1.1" 200 697
+INFO 2025-09-28 23:58:54,640 basehttp 12836 25240 "GET /api/search/phone/%2B17182222222/ HTTP/1.1" 200 696
+INFO 2025-09-29 00:00:21,739 basehttp 12836 7344 "GET /api/search/phone/%2B17182222222/ HTTP/1.1" 200 696
+INFO 2025-09-29 00:06:03,253 autoreload 12836 7888 C:\Users\manik\OneDrive\Desktop\reverse-phone-lookup\backend\lookup\views.py changed, reloading.
+INFO 2025-09-29 00:06:04,823 autoreload 23592 27948 Watching for file changes with StatReloader
+INFO 2025-09-29 00:07:07,525 views 23592 7996 Calling NumVerify API for number: 17182222222
+ERROR 2025-09-29 00:07:07,612 views 23592 7996 NumVerify API connection error
+WARNING 2025-09-29 00:07:07,614 views 23592 7996 NumVerify API failed for +17182222222: Cannot connect to verification service
+INFO 2025-09-29 00:07:07,692 basehttp 23592 7996 "GET /api/search/phone/%2B17182222222/ HTTP/1.1" 200 309
+INFO 2025-09-29 00:07:14,241 basehttp 23592 5104 "GET /api/search/phone/%2B17182222222/ HTTP/1.1" 200 308
+WARNING 2025-09-29 00:07:40,487 log 23592 5104 Bad Request: /api/search/phone/918506067189/
+WARNING 2025-09-29 00:07:40,489 basehttp 23592 5104 "GET /api/search/phone/918506067189/ HTTP/1.1" 400 80
+WARNING 2025-09-29 00:07:46,487 log 23592 5104 Bad Request: /api/search/phone/918506067189/
+WARNING 2025-09-29 00:07:46,488 basehttp 23592 5104 "GET /api/search/phone/918506067189/ HTTP/1.1" 400 80
+WARNING 2025-09-29 00:07:50,386 log 23592 5104 Bad Request: /api/search/phone/918506067189/
+WARNING 2025-09-29 00:07:50,386 basehttp 23592 5104 "GET /api/search/phone/918506067189/ HTTP/1.1" 400 80
+WARNING 2025-09-29 00:08:13,300 log 23592 22588 Bad Request: /api/search/phone/916205710364/
+WARNING 2025-09-29 00:08:13,300 basehttp 23592 22588 "GET /api/search/phone/916205710364/ HTTP/1.1" 400 80
+INFO 2025-09-29 00:08:25,529 basehttp 23592 26920 "GET /api/search/phone/%2B17182222222/ HTTP/1.1" 200 308
+WARNING 2025-09-29 00:10:35,308 log 23592 25044 Bad Request: /api/search/phone/918506067189/
+WARNING 2025-09-29 00:10:35,329 basehttp 23592 25044 "GET /api/search/phone/918506067189/ HTTP/1.1" 400 80
+INFO 2025-09-29 00:17:51,074 autoreload 23592 27948 C:\Users\manik\OneDrive\Desktop\reverse-phone-lookup\backend\lookup\views.py changed, reloading.
+INFO 2025-09-29 00:17:52,537 autoreload 6732 18592 Watching for file changes with StatReloader
+INFO 2025-09-29 01:34:16,976 autoreload 9956 6852 Watching for file changes with StatReloader
+INFO 2025-09-29 01:34:41,732 views 9956 15580 Calling NumVerify API for number: 17182222222
+ERROR 2025-09-29 01:34:41,773 views 9956 15580 NumVerify API connection error
+WARNING 2025-09-29 01:34:41,774 views 9956 15580 NumVerify API failed for +17182222222: Cannot connect to verification service
+INFO 2025-09-29 01:34:41,824 basehttp 9956 15580 "GET /api/search/phone/%2B17182222222/ HTTP/1.1" 200 309
+INFO 2025-09-29 01:37:16,419 basehttp 9956 19856 "GET /api/search/phone/%2B17182222222/ HTTP/1.1" 200 308
+INFO 2025-09-29 01:37:26,839 basehttp 9956 2620 "GET /api/search/phone/%2B17182222222/ HTTP/1.1" 200 308
+WARNING 2025-09-29 01:37:46,178 log 9956 20676 Bad Request: /api/search/phone/918506067189/
+WARNING 2025-09-29 01:37:46,178 basehttp 9956 20676 "GET /api/search/phone/918506067189/ HTTP/1.1" 400 80
+WARNING 2025-09-29 01:39:35,373 log 9956 11572 Bad Request: /api/search/phone/918506067189/
+WARNING 2025-09-29 01:39:35,373 basehttp 9956 11572 "GET /api/search/phone/918506067189/ HTTP/1.1" 400 80
+INFO 2025-09-29 01:40:03,017 autoreload 9956 6852 C:\Users\manik\OneDrive\Desktop\reverse-phone-lookup\backend\lookup\views.py changed, reloading.
+INFO 2025-09-29 01:40:04,144 autoreload 20304 12708 Watching for file changes with StatReloader
+WARNING 2025-09-29 01:40:08,261 log 20304 4600 Bad Request: /api/search/phone/918506067189/
+WARNING 2025-09-29 01:40:08,261 basehttp 20304 4600 "GET /api/search/phone/918506067189/ HTTP/1.1" 400 80
+WARNING 2025-09-29 01:40:21,698 log 20304 17384 Bad Request: /api/search/phone/85060671899/
+WARNING 2025-09-29 01:40:21,702 basehttp 20304 17384 "GET /api/search/phone/85060671899/ HTTP/1.1" 400 79
+INFO 2025-09-29 01:41:13,954 autoreload 20304 12708 C:\Users\manik\OneDrive\Desktop\reverse-phone-lookup\backend\phone_lookup_api\settings.py changed, reloading.
+INFO 2025-09-29 01:41:15,111 autoreload 19384 7028 Watching for file changes with StatReloader
+INFO 2025-09-29 01:41:36,445 autoreload 19384 7028 C:\Users\manik\OneDrive\Desktop\reverse-phone-lookup\backend\phone_lookup_api\settings.py changed, reloading.
+INFO 2025-09-29 01:44:19,712 autoreload 24116 13016 Watching for file changes with StatReloader
+INFO 2025-09-29 01:44:35,166 views 24116 6832 Calling NumVerify API for number: 17182222222
+INFO 2025-09-29 01:44:36,780 views 24116 6832 NumVerify response received for 17182222222
+INFO 2025-09-29 01:44:36,861 basehttp 24116 6832 "GET /api/search/phone/%2B17182222222/ HTTP/1.1" 200 305
+INFO 2025-09-29 01:45:32,937 autoreload 24116 13016 C:\Users\manik\OneDrive\Desktop\reverse-phone-lookup\backend\lookup\views.py changed, reloading.
+INFO 2025-09-29 01:45:34,075 autoreload 24200 4760 Watching for file changes with StatReloader
+INFO 2025-09-29 01:45:53,343 views 24200 21688 Calling NumVerify API for number: 17182222222
+INFO 2025-09-29 01:45:54,766 views 24200 21688 NumVerify response received for 17182222222
+INFO 2025-09-29 01:45:54,819 basehttp 24200 21688 "GET /api/search/phone/%2B17182222222/ HTTP/1.1" 200 305
+WARNING 2025-09-29 01:46:29,728 log 24200 4612 Bad Request: /api/search/phone/918506067189/
+WARNING 2025-09-29 01:46:29,728 basehttp 24200 4612 "GET /api/search/phone/918506067189/ HTTP/1.1" 400 80
+INFO 2025-09-29 01:46:53,409 autoreload 7036 1944 Watching for file changes with StatReloader
+WARNING 2025-09-29 01:46:56,780 log 7036 21800 Bad Request: /api/search/phone/918506067189/
+WARNING 2025-09-29 01:46:56,795 basehttp 7036 21800 "GET /api/search/phone/918506067189/ HTTP/1.1" 400 80
+INFO 2025-09-29 01:48:53,770 autoreload 7036 1944 C:\Users\manik\OneDrive\Desktop\reverse-phone-lookup\backend\lookup\views.py changed, reloading.
+INFO 2025-09-29 01:48:55,242 autoreload 12172 2020 Watching for file changes with StatReloader
+INFO 2025-09-29 01:49:20,703 autoreload 12172 2020 C:\Users\manik\OneDrive\Desktop\reverse-phone-lookup\backend\lookup\urls.py changed, reloading.
+INFO 2025-09-29 01:49:21,788 autoreload 20828 2152 Watching for file changes with StatReloader
+INFO 2025-09-29 01:49:31,988 views 20828 22244 === Phone search started for: 918506067189 ===
+INFO 2025-09-29 01:49:31,988 views 20828 22244 Parsing: 918506067189 -> 918506067189
+INFO 2025-09-29 01:49:32,006 views 20828 22244 Detected Indian landline: Country Code: 91 National Number: 8506067189
+INFO 2025-09-29 01:49:32,009 views 20828 22244 Parsed details - Country: IN, National: 8506067189
+INFO 2025-09-29 01:49:32,009 views 20828 22244 === Success! Returning result: {'number': '918506067189', 'formatted_number': '085060 67189', 'valid': True, 'country_code': 'IN', 'country_name': 'India', 'location': 'India', 'carrier': 'Vodafone Idea', 'line_type': 'mobile', 'source': 'phonenumbers', 'cached': False, 'affiliate_url': 'https://www.truthfinder.com/?a=default&o=100265&utm_source=numberlookup'} ===
+INFO 2025-09-29 01:49:32,009 basehttp 20828 22244 "GET /api/search/phone/918506067189/ HTTP/1.1" 200 331
+INFO 2025-09-29 01:50:01,320 views 20828 25104 === Phone search started for: +17182222222 ===
+INFO 2025-09-29 01:50:01,322 views 20828 25104 Parsing: +17182222222 -> +17182222222
+INFO 2025-09-29 01:50:01,341 views 20828 25104 Successfully parsed with +: Country Code: 1 National Number: 7182222222
+INFO 2025-09-29 01:50:01,341 views 20828 25104 Parsed details - Country: US, National: 7182222222
+INFO 2025-09-29 01:50:01,341 views 20828 25104 === Success! Returning result: {'number': '+17182222222', 'formatted_number': '(718) 222-2222', 'valid': True, 'country_code': 'US', 'country_name': 'United States', 'location': 'Brooklyn, NY', 'carrier': 'AT&T Mobility', 'line_type': 'mobile', 'source': 'phonenumbers', 'cached': False, 'affiliate_url': 'https://www.truthfinder.com/?a=default&o=100265&utm_source=numberlookup'} ===
+INFO 2025-09-29 01:50:01,346 basehttp 20828 25104 "GET /api/search/phone/%2B17182222222/ HTTP/1.1" 200 348
+INFO 2025-09-29 01:50:23,631 views 20828 14244 === Phone search started for: 918506067189 ===
+INFO 2025-09-29 01:50:23,631 views 20828 14244 Parsing: 918506067189 -> 918506067189
+INFO 2025-09-29 01:50:23,631 views 20828 14244 Detected Indian landline: Country Code: 91 National Number: 8506067189
+INFO 2025-09-29 01:50:23,631 views 20828 14244 Parsed details - Country: IN, National: 8506067189
+INFO 2025-09-29 01:50:23,631 views 20828 14244 === Success! Returning result: {'number': '918506067189', 'formatted_number': '085060 67189', 'valid': True, 'country_code': 'IN', 'country_name': 'India', 'location': 'India', 'carrier': 'Reliance Jio', 'line_type': 'mobile', 'source': 'phonenumbers', 'cached': False, 'affiliate_url': 'https://www.truthfinder.com/?a=default&o=100265&utm_source=numberlookup'} ===
+INFO 2025-09-29 01:50:23,631 basehttp 20828 14244 "GET /api/search/phone/918506067189/ HTTP/1.1" 200 330
+INFO 2025-09-29 01:51:49,314 views 20828 21936 === Phone search started for: 918506067189 ===
+INFO 2025-09-29 01:51:49,314 views 20828 21936 Parsing: 918506067189 -> 918506067189
+INFO 2025-09-29 01:51:49,314 views 20828 21936 Detected Indian landline: Country Code: 91 National Number: 8506067189
+INFO 2025-09-29 01:51:49,314 views 20828 21936 Parsed details - Country: IN, National: 8506067189
+INFO 2025-09-29 01:51:49,320 views 20828 21936 === Success! Returning result: {'number': '918506067189', 'formatted_number': '085060 67189', 'valid': True, 'country_code': 'IN', 'country_name': 'India', 'location': 'India', 'carrier': 'Bharti Airtel', 'line_type': 'mobile', 'source': 'phonenumbers', 'cached': False, 'affiliate_url': 'https://www.truthfinder.com/?a=default&o=100265&utm_source=numberlookup'} ===
+INFO 2025-09-29 01:51:49,326 basehttp 20828 21936 "GET /api/search/phone/918506067189/ HTTP/1.1" 200 331
+INFO 2025-09-29 01:52:58,680 autoreload 20828 2152 C:\Users\manik\OneDrive\Desktop\reverse-phone-lookup\backend\lookup\models.py changed, reloading.
+INFO 2025-09-29 01:53:00,445 autoreload 10452 3984 Watching for file changes with StatReloader
+INFO 2025-09-29 01:53:11,494 autoreload 10452 3984 C:\Users\manik\OneDrive\Desktop\reverse-phone-lookup\backend\lookup\admin.py changed, reloading.
+INFO 2025-09-29 01:53:12,750 autoreload 18648 5688 Watching for file changes with StatReloader
+INFO 2025-09-29 01:53:16,506 views 18648 11184 === Phone search started for: 918506067189 ===
+INFO 2025-09-29 01:53:16,506 views 18648 11184 Parsing: 918506067189 -> 918506067189
+INFO 2025-09-29 01:53:16,522 views 18648 11184 Detected Indian landline: Country Code: 91 National Number: 8506067189
+INFO 2025-09-29 01:53:16,525 views 18648 11184 Parsed details - Country: IN, National: 8506067189
+INFO 2025-09-29 01:53:16,528 views 18648 11184 === Success! Returning result: {'number': '918506067189', 'formatted_number': '085060 67189', 'valid': True, 'country_code': 'IN', 'country_name': 'India', 'location': 'India', 'carrier': 'Vodafone Idea', 'line_type': 'mobile', 'source': 'phonenumbers', 'cached': False, 'affiliate_url': 'https://www.truthfinder.com/?a=default&o=100265&utm_source=numberlookup'} ===
+INFO 2025-09-29 01:53:16,532 basehttp 18648 11184 "GET /api/search/phone/918506067189/ HTTP/1.1" 200 331
+INFO 2025-09-29 01:59:06,565 basehttp 18648 11276 "OPTIONS /api/search/phone/918506067189/ HTTP/1.1" 200 0
+INFO 2025-09-29 01:59:06,589 views 18648 11276 === Phone search started for: 918506067189 ===
+INFO 2025-09-29 01:59:06,591 views 18648 11276 Parsing: 918506067189 -> 918506067189
+INFO 2025-09-29 01:59:06,603 views 18648 11276 Detected Indian landline: Country Code: 91 National Number: 8506067189
+INFO 2025-09-29 01:59:06,603 views 18648 11276 Parsed details - Country: IN, National: 8506067189
+INFO 2025-09-29 01:59:06,608 views 18648 11276 === Success! Returning result: {'number': '918506067189', 'formatted_number': '085060 67189', 'valid': True, 'country_code': 'IN', 'country_name': 'India', 'location': 'India', 'carrier': 'Vodafone Idea', 'line_type': 'mobile', 'source': 'phonenumbers', 'cached': False, 'affiliate_url': 'https://www.truthfinder.com/?a=default&o=100265&utm_source=numberlookup'} ===
+INFO 2025-09-29 01:59:06,618 basehttp 18648 11276 "GET /api/search/phone/918506067189/ HTTP/1.1" 200 331
+INFO 2025-09-29 02:01:13,865 autoreload 14424 11780 Watching for file changes with StatReloader
+INFO 2025-09-29 02:01:44,848 views 14424 10532 === Phone search started for: 918506067189 ===
+INFO 2025-09-29 02:01:44,852 views 14424 10532 Parsing: 918506067189 -> 918506067189
+INFO 2025-09-29 02:01:44,963 views 14424 10532 Detected Indian landline: Country Code: 91 National Number: 8506067189
+INFO 2025-09-29 02:01:44,995 views 14424 10532 Parsed details - Country: IN, National: 8506067189
+INFO 2025-09-29 02:01:44,995 views 14424 10532 === Success! Returning result: {'number': '918506067189', 'formatted_number': '085060 67189', 'valid': True, 'country_code': 'IN', 'country_name': 'India', 'location': 'India', 'carrier': 'Bharti Airtel', 'line_type': 'mobile', 'source': 'phonenumbers', 'cached': False, 'affiliate_url': 'https://www.truthfinder.com/?a=default&o=100265&utm_source=numberlookup'} ===
+INFO 2025-09-29 02:01:45,010 basehttp 14424 10532 "GET /api/search/phone/918506067189/ HTTP/1.1" 200 331
+INFO 2025-09-29 02:02:15,209 basehttp 14424 11736 "OPTIONS /api/search/phone/916205710364/ HTTP/1.1" 200 0
+INFO 2025-09-29 02:02:15,225 views 14424 11736 === Phone search started for: 916205710364 ===
+INFO 2025-09-29 02:02:15,225 views 14424 11736 Parsing: 916205710364 -> 916205710364
+INFO 2025-09-29 02:02:15,233 views 14424 11736 Detected Indian landline: Country Code: 91 National Number: 6205710364
+INFO 2025-09-29 02:02:15,236 views 14424 11736 Parsed details - Country: IN, National: 6205710364
+INFO 2025-09-29 02:02:15,238 views 14424 11736 === Success! Returning result: {'number': '916205710364', 'formatted_number': '062057 10364', 'valid': True, 'country_code': 'IN', 'country_name': 'India', 'location': 'India', 'carrier': 'Bharti Airtel', 'line_type': 'mobile', 'source': 'phonenumbers', 'cached': False, 'affiliate_url': 'https://www.truthfinder.com/?a=default&o=100265&utm_source=numberlookup'} ===
+INFO 2025-09-29 02:02:15,245 basehttp 14424 11736 "GET /api/search/phone/916205710364/ HTTP/1.1" 200 331
+INFO 2025-09-29 02:02:39,075 views 14424 25544 === Phone search started for: 916205710364 ===
+INFO 2025-09-29 02:02:39,077 views 14424 25544 Parsing: 916205710364 -> 916205710364
+INFO 2025-09-29 02:02:39,077 views 14424 25544 Detected Indian landline: Country Code: 91 National Number: 6205710364
+INFO 2025-09-29 02:02:39,077 views 14424 25544 Parsed details - Country: IN, National: 6205710364
+INFO 2025-09-29 02:02:39,077 views 14424 25544 === Success! Returning result: {'number': '916205710364', 'formatted_number': '062057 10364', 'valid': True, 'country_code': 'IN', 'country_name': 'India', 'location': 'India', 'carrier': 'Reliance Jio', 'line_type': 'mobile', 'source': 'phonenumbers', 'cached': False, 'affiliate_url': 'https://www.truthfinder.com/?a=default&o=100265&utm_source=numberlookup'} ===
+INFO 2025-09-29 02:02:39,085 basehttp 14424 25544 "GET /api/search/phone/916205710364/ HTTP/1.1" 200 330
+INFO 2025-09-29 02:03:47,107 autoreload 14424 11780 C:\Users\manik\OneDrive\Desktop\reverse-phone-lookup\backend\lookup\admin.py changed, reloading.
+INFO 2025-09-29 02:03:48,180 autoreload 12680 17632 Watching for file changes with StatReloader
+INFO 2025-09-29 02:03:55,432 autoreload 12680 17632 C:\Users\manik\OneDrive\Desktop\reverse-phone-lookup\backend\lookup\models.py changed, reloading.
+INFO 2025-09-29 02:03:56,327 autoreload 13332 19384 Watching for file changes with StatReloader
+INFO 2025-09-29 02:04:39,153 autoreload 24972 13240 Watching for file changes with StatReloader
+INFO 2025-09-29 02:04:45,517 views 24972 25544 === Phone search started for: 916205710364 ===
+INFO 2025-09-29 02:04:45,517 views 24972 25544 Parsing: 916205710364 -> 916205710364
+INFO 2025-09-29 02:04:45,533 views 24972 25544 Detected Indian landline: Country Code: 91 National Number: 6205710364
+INFO 2025-09-29 02:04:45,548 views 24972 25544 Parsed details - Country: IN, National: 6205710364
+INFO 2025-09-29 02:04:45,548 views 24972 25544 === Success! Returning result: {'number': '916205710364', 'formatted_number': '062057 10364', 'valid': True, 'country_code': 'IN', 'country_name': 'India', 'location': 'India', 'carrier': 'Vodafone Idea', 'line_type': 'mobile', 'source': 'phonenumbers', 'cached': False, 'affiliate_url': 'https://www.truthfinder.com/?a=default&o=100265&utm_source=numberlookup'} ===
+INFO 2025-09-29 02:04:45,548 basehttp 24972 25544 "GET /api/search/phone/916205710364/ HTTP/1.1" 200 331
+INFO 2025-09-29 02:04:55,855 views 24972 8812 === Phone search started for: 916205710364 ===
+INFO 2025-09-29 02:04:55,855 views 24972 8812 Parsing: 916205710364 -> 916205710364
+INFO 2025-09-29 02:04:55,855 views 24972 8812 Detected Indian landline: Country Code: 91 National Number: 6205710364
+INFO 2025-09-29 02:04:55,865 views 24972 8812 Parsed details - Country: IN, National: 6205710364
+INFO 2025-09-29 02:04:55,865 views 24972 8812 === Success! Returning result: {'number': '916205710364', 'formatted_number': '062057 10364', 'valid': True, 'country_code': 'IN', 'country_name': 'India', 'location': 'India', 'carrier': 'Vodafone Idea', 'line_type': 'mobile', 'source': 'phonenumbers', 'cached': False, 'affiliate_url': 'https://www.truthfinder.com/?a=default&o=100265&utm_source=numberlookup'} ===
+INFO 2025-09-29 02:04:55,874 basehttp 24972 8812 "GET /api/search/phone/916205710364/ HTTP/1.1" 200 331
+INFO 2025-09-29 02:05:15,935 views 24972 22284 === Phone search started for: 919902472453 ===
+INFO 2025-09-29 02:05:15,935 views 24972 22284 Parsing: 919902472453 -> 919902472453
+INFO 2025-09-29 02:05:15,935 views 24972 22284 Detected Indian landline: Country Code: 91 National Number: 9902472453
+INFO 2025-09-29 02:05:15,946 views 24972 22284 Parsed details - Country: IN, National: 9902472453
+INFO 2025-09-29 02:05:15,946 views 24972 22284 === Success! Returning result: {'number': '919902472453', 'formatted_number': '099024 72453', 'valid': True, 'country_code': 'IN', 'country_name': 'India', 'location': 'Delhi', 'carrier': 'Vodafone Idea', 'line_type': 'mobile', 'source': 'phonenumbers', 'cached': False, 'affiliate_url': 'https://www.truthfinder.com/?a=default&o=100265&utm_source=numberlookup'} ===
+INFO 2025-09-29 02:05:15,953 basehttp 24972 22284 "GET /api/search/phone/919902472453/ HTTP/1.1" 200 331
+INFO 2025-09-29 02:05:33,805 autoreload 24972 13240 C:\Users\manik\OneDrive\Desktop\reverse-phone-lookup\backend\lookup\models.py changed, reloading.
+INFO 2025-09-29 02:05:34,715 autoreload 23700 21036 Watching for file changes with StatReloader
+INFO 2025-09-29 02:05:38,847 autoreload 23700 21036 C:\Users\manik\OneDrive\Desktop\reverse-phone-lookup\backend\lookup\admin.py changed, reloading.
+INFO 2025-09-29 02:05:39,707 autoreload 17040 21396 Watching for file changes with StatReloader
+INFO 2025-09-29 02:06:20,756 autoreload 11972 21700 Watching for file changes with StatReloader
+INFO 2025-09-29 02:06:24,492 views 11972 21972 === Phone search started for: 919902472453 ===
+INFO 2025-09-29 02:06:24,492 views 11972 21972 Parsing: 919902472453 -> 919902472453
+INFO 2025-09-29 02:06:24,553 views 11972 21972 Detected Indian landline: Country Code: 91 National Number: 9902472453
+INFO 2025-09-29 02:06:24,560 views 11972 21972 Parsed details - Country: IN, National: 9902472453
+INFO 2025-09-29 02:06:24,560 views 11972 21972 === Success! Returning result: {'number': '919902472453', 'formatted_number': '099024 72453', 'valid': True, 'country_code': 'IN', 'country_name': 'India', 'location': 'Delhi', 'carrier': 'Vodafone Idea', 'line_type': 'mobile', 'source': 'phonenumbers', 'cached': False, 'affiliate_url': 'https://www.truthfinder.com/?a=default&o=100265&utm_source=numberlookup'} ===
+INFO 2025-09-29 02:06:24,564 basehttp 11972 21972 "GET /api/search/phone/919902472453/ HTTP/1.1" 200 331
+INFO 2025-09-29 02:06:45,190 views 11972 2564 === Phone search started for: 919902472670 ===
+INFO 2025-09-29 02:06:45,190 views 11972 2564 Parsing: 919902472670 -> 919902472670
+INFO 2025-09-29 02:06:45,190 views 11972 2564 Detected Indian landline: Country Code: 91 National Number: 9902472670
+INFO 2025-09-29 02:06:45,199 views 11972 2564 Parsed details - Country: IN, National: 9902472670
+INFO 2025-09-29 02:06:45,201 views 11972 2564 === Success! Returning result: {'number': '919902472670', 'formatted_number': '099024 72670', 'valid': True, 'country_code': 'IN', 'country_name': 'India', 'location': 'Delhi', 'carrier': 'Vodafone Idea', 'line_type': 'mobile', 'source': 'phonenumbers', 'cached': False, 'affiliate_url': 'https://www.truthfinder.com/?a=default&o=100265&utm_source=numberlookup'} ===
+INFO 2025-09-29 02:06:45,206 basehttp 11972 2564 "GET /api/search/phone/919902472670/ HTTP/1.1" 200 331
+INFO 2025-09-29 02:07:03,707 views 11972 16564 === Phone search started for: +17182222222 ===
+INFO 2025-09-29 02:07:03,707 views 11972 16564 Parsing: +17182222222 -> +17182222222
+INFO 2025-09-29 02:07:03,747 views 11972 16564 Successfully parsed with +: Country Code: 1 National Number: 7182222222
+INFO 2025-09-29 02:07:03,752 views 11972 16564 Parsed details - Country: US, National: 7182222222
+INFO 2025-09-29 02:07:03,754 views 11972 16564 === Success! Returning result: {'number': '+17182222222', 'formatted_number': '(718) 222-2222', 'valid': True, 'country_code': 'US', 'country_name': 'United States', 'location': 'Brooklyn, NY', 'carrier': 'Sprint', 'line_type': 'mobile', 'source': 'phonenumbers', 'cached': False, 'affiliate_url': 'https://www.truthfinder.com/?a=default&o=100265&utm_source=numberlookup'} ===
+INFO 2025-09-29 02:07:03,762 basehttp 11972 16564 "GET /api/search/phone/%2B17182222222/ HTTP/1.1" 200 341
+INFO 2025-09-29 02:07:17,480 views 11972 3980 === Phone search started for: +17182222222 ===
+INFO 2025-09-29 02:07:17,485 views 11972 3980 Parsing: +17182222222 -> +17182222222
+INFO 2025-09-29 02:07:17,485 views 11972 3980 Successfully parsed with +: Country Code: 1 National Number: 7182222222
+INFO 2025-09-29 02:07:17,485 views 11972 3980 Parsed details - Country: US, National: 7182222222
+INFO 2025-09-29 02:07:17,485 views 11972 3980 === Success! Returning result: {'number': '+17182222222', 'formatted_number': '(718) 222-2222', 'valid': True, 'country_code': 'US', 'country_name': 'United States', 'location': 'Brooklyn, NY', 'carrier': 'T-Mobile', 'line_type': 'mobile', 'source': 'phonenumbers', 'cached': False, 'affiliate_url': 'https://www.truthfinder.com/?a=default&o=100265&utm_source=numberlookup'} ===
+INFO 2025-09-29 02:07:17,498 basehttp 11972 3980 "GET /api/search/phone/%2B17182222222/ HTTP/1.1" 200 343
+INFO 2025-09-29 02:07:31,001 views 11972 3096 === Phone search started for: +17182222222 ===
+INFO 2025-09-29 02:07:31,001 views 11972 3096 Parsing: +17182222222 -> +17182222222
+INFO 2025-09-29 02:07:31,003 views 11972 3096 Successfully parsed with +: Country Code: 1 National Number: 7182222222
+INFO 2025-09-29 02:07:31,005 views 11972 3096 Parsed details - Country: US, National: 7182222222
+INFO 2025-09-29 02:07:31,005 views 11972 3096 === Success! Returning result: {'number': '+17182222222', 'formatted_number': '(718) 222-2222', 'valid': True, 'country_code': 'US', 'country_name': 'United States', 'location': 'Brooklyn, NY', 'carrier': 'Sprint', 'line_type': 'mobile', 'source': 'phonenumbers', 'cached': False, 'affiliate_url': 'https://www.truthfinder.com/?a=default&o=100265&utm_source=numberlookup'} ===
+INFO 2025-09-29 02:07:31,014 basehttp 11972 3096 "GET /api/search/phone/%2B17182222222/ HTTP/1.1" 200 341
+INFO 2025-09-29 02:07:41,281 views 11972 3096 === Phone search started for: +17182222222 ===
+INFO 2025-09-29 02:07:41,282 views 11972 3096 Parsing: +17182222222 -> +17182222222
+INFO 2025-09-29 02:07:41,282 views 11972 3096 Successfully parsed with +: Country Code: 1 National Number: 7182222222
+INFO 2025-09-29 02:07:41,283 views 11972 3096 Parsed details - Country: US, National: 7182222222
+INFO 2025-09-29 02:07:41,283 views 11972 3096 === Success! Returning result: {'number': '+17182222222', 'formatted_number': '(718) 222-2222', 'valid': True, 'country_code': 'US', 'country_name': 'United States', 'location': 'Brooklyn, NY', 'carrier': 'T-Mobile', 'line_type': 'mobile', 'source': 'phonenumbers', 'cached': False, 'affiliate_url': 'https://www.truthfinder.com/?a=default&o=100265&utm_source=numberlookup'} ===
+INFO 2025-09-29 02:07:41,285 basehttp 11972 3096 "GET /api/search/phone/%2B17182222222/ HTTP/1.1" 200 343
+INFO 2025-09-29 10:20:41,876 basehttp 11972 12956 "OPTIONS /api/search/phone/%2B17182222222/ HTTP/1.1" 200 0
+INFO 2025-09-29 10:20:41,919 views 11972 12956 === Phone search started for: +17182222222 ===
+INFO 2025-09-29 10:20:41,919 views 11972 12956 Parsing: +17182222222 -> +17182222222
+INFO 2025-09-29 10:20:41,941 views 11972 12956 Successfully parsed with +: Country Code: 1 National Number: 7182222222
+INFO 2025-09-29 10:20:41,942 views 11972 12956 Parsed details - Country: US, National: 7182222222
+INFO 2025-09-29 10:20:41,942 views 11972 12956 === Success! Returning result: {'number': '+17182222222', 'formatted_number': '(718) 222-2222', 'valid': True, 'country_code': 'US', 'country_name': 'United States', 'location': 'Brooklyn, NY', 'carrier': 'Sprint', 'line_type': 'mobile', 'source': 'phonenumbers', 'cached': False, 'affiliate_url': 'https://www.truthfinder.com/?a=default&o=100265&utm_source=numberlookup'} ===
+INFO 2025-09-29 10:20:41,953 basehttp 11972 12956 "GET /api/search/phone/%2B17182222222/ HTTP/1.1" 200 341
+INFO 2025-09-29 10:21:11,372 views 11972 14844 === Phone search started for: +17182222222 ===
+INFO 2025-09-29 10:21:11,372 views 11972 14844 Parsing: +17182222222 -> +17182222222
+INFO 2025-09-29 10:21:11,372 views 11972 14844 Successfully parsed with +: Country Code: 1 National Number: 7182222222
+INFO 2025-09-29 10:21:11,372 views 11972 14844 Parsed details - Country: US, National: 7182222222
+INFO 2025-09-29 10:21:11,372 views 11972 14844 === Success! Returning result: {'number': '+17182222222', 'formatted_number': '(718) 222-2222', 'valid': True, 'country_code': 'US', 'country_name': 'United States', 'location': 'Brooklyn, NY', 'carrier': 'AT&T Mobility', 'line_type': 'mobile', 'source': 'phonenumbers', 'cached': False, 'affiliate_url': 'https://www.truthfinder.com/?a=default&o=100265&utm_source=numberlookup'} ===
+INFO 2025-09-29 10:21:11,372 basehttp 11972 14844 "GET /api/search/phone/%2B17182222222/ HTTP/1.1" 200 348
+INFO 2025-09-29 10:24:00,737 autoreload 11972 21700 C:\Users\manik\OneDrive\Desktop\reverse-phone-lookup\backend\lookup\views.py changed, reloading.
+INFO 2025-09-29 10:24:02,288 autoreload 2588 23000 Watching for file changes with StatReloader
+INFO 2025-09-29 10:24:07,456 views 2588 24140 === Phone search started for: +17182222222 ===
+INFO 2025-09-29 10:24:07,476 views 2588 24140 Normalized number: +17182222222
+INFO 2025-09-29 10:24:07,477 views 2588 24140 Cache MISS for +17182222222 - generating new data
+ERROR 2025-09-29 10:24:07,477 views 2588 24140 Phone parsing error: module 'phonenumbers' has no attribute 'geocoder'
+INFO 2025-09-29 10:24:07,477 views 2588 24140 Cached result for +17182222222
+INFO 2025-09-29 10:24:07,492 views 2588 24140 === Success! Returning result: {'number': '+17182222222', 'valid': True, 'country_code': 'US', 'country_name': 'United States', 'location': 'Brooklyn/Queens, NY', 'carrier': 'T-Mobile', 'line_type': 'mobile', 'source': 'phonenumbers', 'cached': False, 'affiliate_url': 'https://www.truthfinder.com/?a=default&o=100265&utm_source=numberlookup'} ===
+INFO 2025-09-29 10:24:07,494 basehttp 2588 24140 "GET /api/search/phone/%2B17182222222/ HTTP/1.1" 200 312
+INFO 2025-09-29 10:24:12,132 views 2588 24140 === Phone search started for: +17182222222 ===
+INFO 2025-09-29 10:24:12,132 views 2588 24140 Normalized number: +17182222222
+INFO 2025-09-29 10:24:12,132 views 2588 24140 Cache HIT for +17182222222
+INFO 2025-09-29 10:24:12,167 basehttp 2588 24140 "GET /api/search/phone/%2B17182222222/ HTTP/1.1" 200 311
+INFO 2025-09-29 10:24:14,960 views 2588 24140 === Phone search started for: +17182222222 ===
+INFO 2025-09-29 10:24:14,960 views 2588 24140 Normalized number: +17182222222
+INFO 2025-09-29 10:24:14,961 views 2588 24140 Cache HIT for +17182222222
+INFO 2025-09-29 10:24:14,975 basehttp 2588 24140 "GET /api/search/phone/%2B17182222222/ HTTP/1.1" 200 311
+INFO 2025-09-29 10:24:17,832 views 2588 22804 === Phone search started for: +17182222222 ===
+INFO 2025-09-29 10:24:17,832 views 2588 22804 Normalized number: +17182222222
+INFO 2025-09-29 10:24:17,832 views 2588 22804 Cache HIT for +17182222222
+INFO 2025-09-29 10:24:17,917 basehttp 2588 22804 "GET /api/search/phone/%2B17182222222/ HTTP/1.1" 200 311
+INFO 2025-09-29 10:24:20,809 views 2588 22804 === Phone search started for: +17182222222 ===
+INFO 2025-09-29 10:24:20,809 views 2588 22804 Normalized number: +17182222222
+INFO 2025-09-29 10:24:20,810 views 2588 22804 Cache HIT for +17182222222
+INFO 2025-09-29 10:24:20,824 basehttp 2588 22804 "GET /api/search/phone/%2B17182222222/ HTTP/1.1" 200 311
+INFO 2025-09-29 10:24:37,968 views 2588 22308 === Phone search started for: 918506067189 ===
+WARNING 2025-09-29 10:24:38,213 log 2588 22308 Bad Request: /api/search/phone/918506067189/
+WARNING 2025-09-29 10:24:38,213 basehttp 2588 22308 "GET /api/search/phone/918506067189/ HTTP/1.1" 400 80
+INFO 2025-09-29 10:24:45,256 views 2588 22308 === Phone search started for: 918506067189 ===
+WARNING 2025-09-29 10:24:45,256 log 2588 22308 Bad Request: /api/search/phone/918506067189/
+WARNING 2025-09-29 10:24:45,256 basehttp 2588 22308 "GET /api/search/phone/918506067189/ HTTP/1.1" 400 80
+INFO 2025-09-29 10:24:51,349 views 2588 10728 === Phone search started for: 918506067189 ===
+WARNING 2025-09-29 10:24:51,354 log 2588 10728 Bad Request: /api/search/phone/918506067189/
+WARNING 2025-09-29 10:24:51,358 basehttp 2588 10728 "GET /api/search/phone/918506067189/ HTTP/1.1" 400 80
+INFO 2025-09-29 10:25:00,245 autoreload 2588 23000 C:\Users\manik\OneDrive\Desktop\reverse-phone-lookup\backend\lookup\views.py changed, reloading.
+INFO 2025-09-29 10:25:01,176 autoreload 24268 25556 Watching for file changes with StatReloader
+INFO 2025-09-29 10:25:03,478 views 24268 16628 === Phone search started for: 918506067189 ===
+INFO 2025-09-29 10:25:03,478 views 24268 16628 Parsing: 918506067189 -> 918506067189
+INFO 2025-09-29 10:25:03,501 views 24268 16628 Detected Indian landline: Country Code: 91 National Number: 8506067189
+INFO 2025-09-29 10:25:03,503 views 24268 16628 Parsed details - Country: IN, National: 8506067189
+INFO 2025-09-29 10:25:03,503 views 24268 16628 === Success! Returning result: {'number': '918506067189', 'formatted_number': '085060 67189', 'valid': True, 'country_code': 'IN', 'country_name': 'India', 'location': 'India', 'carrier': 'Vodafone Idea', 'line_type': 'mobile', 'source': 'phonenumbers', 'cached': False, 'affiliate_url': 'https://www.truthfinder.com/?a=default&o=100265&utm_source=numberlookup'} ===
+INFO 2025-09-29 10:25:03,505 basehttp 24268 16628 "GET /api/search/phone/918506067189/ HTTP/1.1" 200 331
+INFO 2025-09-29 10:25:13,601 views 24268 20292 === Phone search started for: 918506067189 ===
+INFO 2025-09-29 10:25:13,601 views 24268 20292 Parsing: 918506067189 -> 918506067189
+INFO 2025-09-29 10:25:13,608 views 24268 20292 Detected Indian landline: Country Code: 91 National Number: 8506067189
+INFO 2025-09-29 10:25:13,611 views 24268 20292 Parsed details - Country: IN, National: 8506067189
+INFO 2025-09-29 10:25:13,613 views 24268 20292 === Success! Returning result: {'number': '918506067189', 'formatted_number': '085060 67189', 'valid': True, 'country_code': 'IN', 'country_name': 'India', 'location': 'India', 'carrier': 'BSNL', 'line_type': 'mobile', 'source': 'phonenumbers', 'cached': False, 'affiliate_url': 'https://www.truthfinder.com/?a=default&o=100265&utm_source=numberlookup'} ===
+INFO 2025-09-29 10:25:13,615 basehttp 24268 20292 "GET /api/search/phone/918506067189/ HTTP/1.1" 200 322
+INFO 2025-09-29 10:25:26,724 autoreload 24268 25556 C:\Users\manik\OneDrive\Desktop\reverse-phone-lookup\backend\lookup\views.py changed, reloading.
+INFO 2025-09-29 10:25:27,421 autoreload 23824 4888 Watching for file changes with StatReloader
+INFO 2025-09-29 10:25:31,756 views 23824 6192 === Phone search started for: 918506067189 ===
+WARNING 2025-09-29 10:25:31,793 log 23824 6192 Bad Request: /api/search/phone/918506067189/
+WARNING 2025-09-29 10:25:31,793 basehttp 23824 6192 "GET /api/search/phone/918506067189/ HTTP/1.1" 400 80
+INFO 2025-09-29 10:27:52,711 autoreload 23824 4888 C:\Users\manik\OneDrive\Desktop\reverse-phone-lookup\backend\lookup\utils.py changed, reloading.
+INFO 2025-09-29 10:27:53,488 autoreload 10468 25852 Watching for file changes with StatReloader
+INFO 2025-09-29 10:27:58,954 views 10468 17248 === Phone search started for: 918506067189 ===
+INFO 2025-09-29 10:27:58,954 utils 10468 17248 Parsing: 918506067189 -> 918506067189
+INFO 2025-09-29 10:27:59,033 utils 10468 17248 Successfully parsed with IN region: Country Code: 91
+INFO 2025-09-29 10:27:59,033 utils 10468 17248 Parsed details - Country: IN, National: 8506067189
+INFO 2025-09-29 10:27:59,033 views 10468 17248 Normalized number: +918506067189
+INFO 2025-09-29 10:27:59,035 views 10468 17248 Cache MISS for +918506067189 - generating new data
+ERROR 2025-09-29 10:27:59,036 views 10468 17248 Phone parsing error: module 'phonenumbers' has no attribute 'geocoder'
+INFO 2025-09-29 10:27:59,036 views 10468 17248 Cached result for +918506067189
+INFO 2025-09-29 10:27:59,045 views 10468 17248 === Success! Returning result: {'number': '918506067189', 'valid': True, 'country_code': 'US', 'country_name': 'United States', 'location': 'Area Code 850, United States', 'carrier': 'Wireless Carrier', 'line_type': 'mobile', 'source': 'phonenumbers', 'cached': False, 'affiliate_url': 'https://www.truthfinder.com/?a=default&o=100265&utm_source=numberlookup'} ===
+INFO 2025-09-29 10:27:59,045 basehttp 10468 17248 "GET /api/search/phone/918506067189/ HTTP/1.1" 200 329
+INFO 2025-09-29 10:28:25,869 views 10468 19820 === Phone search started for: 919932456789 ===
+INFO 2025-09-29 10:28:25,869 utils 10468 19820 Parsing: 919932456789 -> 919932456789
+INFO 2025-09-29 10:28:25,883 utils 10468 19820 Successfully parsed with IN region: Country Code: 91
+INFO 2025-09-29 10:28:25,884 utils 10468 19820 Parsed details - Country: IN, National: 9932456789
+INFO 2025-09-29 10:28:25,888 views 10468 19820 Normalized number: +919932456789
+INFO 2025-09-29 10:28:25,890 views 10468 19820 Cache MISS for +919932456789 - generating new data
+ERROR 2025-09-29 10:28:25,890 views 10468 19820 Phone parsing error: module 'phonenumbers' has no attribute 'geocoder'
+INFO 2025-09-29 10:28:25,890 views 10468 19820 Cached result for +919932456789
+INFO 2025-09-29 10:28:25,964 views 10468 19820 === Success! Returning result: {'number': '919932456789', 'valid': True, 'country_code': 'US', 'country_name': 'United States', 'location': 'Area Code 993, United States', 'carrier': 'Wireless Carrier', 'line_type': 'mobile', 'source': 'phonenumbers', 'cached': False, 'affiliate_url': 'https://www.truthfinder.com/?a=default&o=100265&utm_source=numberlookup'} ===
+INFO 2025-09-29 10:28:25,975 basehttp 10468 19820 "GET /api/search/phone/919932456789/ HTTP/1.1" 200 329
+INFO 2025-09-29 10:30:41,999 autoreload 10468 25852 C:\Users\manik\OneDrive\Desktop\reverse-phone-lookup\backend\lookup\views.py changed, reloading.
+INFO 2025-09-29 10:30:42,683 autoreload 22472 17604 Watching for file changes with StatReloader
+INFO 2025-09-29 10:30:45,982 views 22472 21008 === Phone search started for: 919932456789 ===
+INFO 2025-09-29 10:30:45,982 utils 22472 21008 Parsing: 919932456789 -> 919932456789
+INFO 2025-09-29 10:30:46,074 utils 22472 21008 Successfully parsed with IN region: Country Code: 91
+INFO 2025-09-29 10:30:46,076 utils 22472 21008 Parsed details - Country: IN, National: 9932456789
+INFO 2025-09-29 10:30:46,076 views 22472 21008 Normalized number: +919932456789
+INFO 2025-09-29 10:30:46,076 views 22472 21008 Cache MISS for +919932456789 - generating new data
+INFO 2025-09-29 10:30:46,076 views 22472 21008 Region code: IN
+WARNING 2025-09-29 10:30:46,076 views 22472 21008 Could not get country name: module 'phonenumbers' has no attribute 'geocoder'
+WARNING 2025-09-29 10:30:46,078 views 22472 21008 Could not get location: module 'phonenumbers' has no attribute 'geocoder'
+INFO 2025-09-29 10:30:46,101 views 22472 21008 Successfully processed IN number: +91 99324 56789
+INFO 2025-09-29 10:30:46,101 views 22472 21008 Cached result for +919932456789
+INFO 2025-09-29 10:30:46,118 views 22472 21008 === Success! Returning result ===
+INFO 2025-09-29 10:30:46,118 basehttp 22472 21008 "GET /api/search/phone/919932456789/ HTTP/1.1" 200 332
+INFO 2025-09-29 10:31:10,879 views 22472 21484 === Phone search started for: +17182222222 ===
+INFO 2025-09-29 10:31:10,879 utils 22472 21484 Parsing: +17182222222 -> +17182222222
+INFO 2025-09-29 10:31:10,879 utils 22472 21484 Successfully parsed with +: Country Code: 1 National Number: 7182222222
+INFO 2025-09-29 10:31:10,885 utils 22472 21484 Parsed details - Country: US, National: 7182222222
+INFO 2025-09-29 10:31:10,885 views 22472 21484 Normalized number: +17182222222
+INFO 2025-09-29 10:31:10,885 views 22472 21484 Cache MISS for +17182222222 - generating new data
+INFO 2025-09-29 10:31:10,887 views 22472 21484 Region code: US
+WARNING 2025-09-29 10:31:10,887 views 22472 21484 Could not get country name: module 'phonenumbers' has no attribute 'geocoder'
+WARNING 2025-09-29 10:31:10,887 views 22472 21484 Could not get location: module 'phonenumbers' has no attribute 'geocoder'
+INFO 2025-09-29 10:31:10,887 views 22472 21484 Successfully processed US number: (718) 222-2222
+INFO 2025-09-29 10:31:10,887 views 22472 21484 Cached result for +17182222222
+INFO 2025-09-29 10:31:10,912 views 22472 21484 === Success! Returning result ===
+INFO 2025-09-29 10:31:10,913 basehttp 22472 21484 "GET /api/search/phone/%2B17182222222/ HTTP/1.1" 200 344
+INFO 2025-09-29 10:31:18,414 views 22472 26060 === Phone search started for: +17182222222 ===
+INFO 2025-09-29 10:31:18,414 utils 22472 26060 Parsing: +17182222222 -> +17182222222
+INFO 2025-09-29 10:31:18,414 utils 22472 26060 Successfully parsed with +: Country Code: 1 National Number: 7182222222
+INFO 2025-09-29 10:31:18,427 utils 22472 26060 Parsed details - Country: US, National: 7182222222
+INFO 2025-09-29 10:31:18,431 views 22472 26060 Normalized number: +17182222222
+INFO 2025-09-29 10:31:18,431 views 22472 26060 Cache HIT for +17182222222
+INFO 2025-09-29 10:31:18,499 basehttp 22472 26060 "GET /api/search/phone/%2B17182222222/ HTTP/1.1" 200 343
+INFO 2025-09-29 10:31:30,455 views 22472 26060 === Phone search started for: 918506067189 ===
+INFO 2025-09-29 10:31:30,456 utils 22472 26060 Parsing: 918506067189 -> 918506067189
+INFO 2025-09-29 10:31:30,456 utils 22472 26060 Successfully parsed with IN region: Country Code: 91
+INFO 2025-09-29 10:31:30,456 utils 22472 26060 Parsed details - Country: IN, National: 8506067189
+INFO 2025-09-29 10:31:30,456 views 22472 26060 Normalized number: +918506067189
+INFO 2025-09-29 10:31:30,459 views 22472 26060 Cache MISS for +918506067189 - generating new data
+INFO 2025-09-29 10:31:30,460 views 22472 26060 Region code: IN
+WARNING 2025-09-29 10:31:30,460 views 22472 26060 Could not get country name: module 'phonenumbers' has no attribute 'geocoder'
+WARNING 2025-09-29 10:31:30,460 views 22472 26060 Could not get location: module 'phonenumbers' has no attribute 'geocoder'
+INFO 2025-09-29 10:31:30,461 views 22472 26060 Successfully processed IN number: +91 85060 67189
+INFO 2025-09-29 10:31:30,461 views 22472 26060 Cached result for +918506067189
+INFO 2025-09-29 10:31:30,487 views 22472 26060 === Success! Returning result ===
+INFO 2025-09-29 10:31:30,492 basehttp 22472 26060 "GET /api/search/phone/918506067189/ HTTP/1.1" 200 330
+INFO 2025-09-29 10:33:45,312 views 22472 27480 === Phone search started for: 918506067189 ===
+INFO 2025-09-29 10:33:45,345 utils 22472 27480 Parsing: 918506067189 -> 918506067189
+INFO 2025-09-29 10:33:45,351 utils 22472 27480 Successfully parsed with IN region: Country Code: 91
+INFO 2025-09-29 10:33:45,355 utils 22472 27480 Parsed details - Country: IN, National: 8506067189
+INFO 2025-09-29 10:33:45,355 views 22472 27480 Normalized number: +918506067189
+INFO 2025-09-29 10:33:45,359 views 22472 27480 Cache HIT for +918506067189
+INFO 2025-09-29 10:33:45,492 basehttp 22472 27480 "GET /api/search/phone/918506067189/ HTTP/1.1" 200 329
+INFO 2025-09-29 10:33:59,994 views 22472 8904 === Phone search started for: 918506067189 ===
+INFO 2025-09-29 10:33:59,997 utils 22472 8904 Parsing: 918506067189 -> 918506067189
+INFO 2025-09-29 10:33:59,998 utils 22472 8904 Successfully parsed with IN region: Country Code: 91
+INFO 2025-09-29 10:34:00,000 utils 22472 8904 Parsed details - Country: IN, National: 8506067189
+INFO 2025-09-29 10:34:00,000 views 22472 8904 Normalized number: +918506067189
+INFO 2025-09-29 10:34:00,002 views 22472 8904 Cache HIT for +918506067189
+INFO 2025-09-29 10:34:00,095 basehttp 22472 8904 "GET /api/search/phone/918506067189/ HTTP/1.1" 200 329
+INFO 2025-09-29 10:35:16,899 views 22472 19936 === Phone search started for: 919902473456 ===
+INFO 2025-09-29 10:35:16,899 utils 22472 19936 Parsing: 919902473456 -> 919902473456
+INFO 2025-09-29 10:35:16,907 utils 22472 19936 Successfully parsed with IN region: Country Code: 91
+INFO 2025-09-29 10:35:16,907 utils 22472 19936 Parsed details - Country: IN, National: 9902473456
+INFO 2025-09-29 10:35:16,914 views 22472 19936 Normalized number: +919902473456
+INFO 2025-09-29 10:35:16,918 views 22472 19936 Cache MISS for +919902473456 - generating new data
+INFO 2025-09-29 10:35:16,923 views 22472 19936 Region code: IN
+WARNING 2025-09-29 10:35:16,925 views 22472 19936 Could not get country name: module 'phonenumbers' has no attribute 'geocoder'
+WARNING 2025-09-29 10:35:16,932 views 22472 19936 Could not get location: module 'phonenumbers' has no attribute 'geocoder'
+INFO 2025-09-29 10:35:16,950 views 22472 19936 Successfully processed IN number: +91 99024 73456
+INFO 2025-09-29 10:35:16,950 views 22472 19936 Cached result for +919902473456
+INFO 2025-09-29 10:35:17,026 views 22472 19936 === Success! Returning result ===
+INFO 2025-09-29 10:35:17,032 basehttp 22472 19936 "GET /api/search/phone/919902473456/ HTTP/1.1" 200 332
+INFO 2025-09-29 10:36:27,608 views 22472 21144 === Phone search started for: 919902473456 ===
+INFO 2025-09-29 10:36:27,608 utils 22472 21144 Parsing: 919902473456 -> 919902473456
+INFO 2025-09-29 10:36:27,608 utils 22472 21144 Successfully parsed with IN region: Country Code: 91
+INFO 2025-09-29 10:36:27,622 utils 22472 21144 Parsed details - Country: IN, National: 9902473456
+INFO 2025-09-29 10:36:27,626 views 22472 21144 Normalized number: +919902473456
+INFO 2025-09-29 10:36:27,629 views 22472 21144 Cache HIT for +919902473456
+INFO 2025-09-29 10:36:27,665 basehttp 22472 21144 "GET /api/search/phone/919902473456/ HTTP/1.1" 200 331
+INFO 2025-09-29 10:36:50,175 views 22472 7564 === Phone search started for: 919932478499 ===
+INFO 2025-09-29 10:36:50,175 utils 22472 7564 Parsing: 919932478499 -> 919932478499
+INFO 2025-09-29 10:36:50,191 utils 22472 7564 Successfully parsed with IN region: Country Code: 91
+INFO 2025-09-29 10:36:50,191 utils 22472 7564 Parsed details - Country: IN, National: 9932478499
+INFO 2025-09-29 10:36:50,191 views 22472 7564 Normalized number: +919932478499
+INFO 2025-09-29 10:36:50,191 views 22472 7564 Cache MISS for +919932478499 - generating new data
+INFO 2025-09-29 10:36:50,191 views 22472 7564 Region code: IN
+WARNING 2025-09-29 10:36:50,191 views 22472 7564 Could not get country name: module 'phonenumbers' has no attribute 'geocoder'
+WARNING 2025-09-29 10:36:50,206 views 22472 7564 Could not get location: module 'phonenumbers' has no attribute 'geocoder'
+INFO 2025-09-29 10:36:50,218 views 22472 7564 Successfully processed IN number: +91 99324 78499
+INFO 2025-09-29 10:36:50,221 views 22472 7564 Cached result for +919932478499
+INFO 2025-09-29 10:36:50,319 views 22472 7564 === Success! Returning result ===
+INFO 2025-09-29 10:36:50,332 basehttp 22472 7564 "GET /api/search/phone/919932478499/ HTTP/1.1" 200 332
+INFO 2025-09-29 10:37:09,126 views 22472 14760 === Phone search started for: 117182222222 ===
+INFO 2025-09-29 10:37:09,128 utils 22472 14760 Parsing: 117182222222 -> 117182222222
+INFO 2025-09-29 10:37:09,134 utils 22472 14760 Successfully parsed with US region: Country Code: 1
+INFO 2025-09-29 10:37:09,138 utils 22472 14760 Parsed details - Country: US, National: 7182222222
+INFO 2025-09-29 10:37:09,138 views 22472 14760 Normalized number: +17182222222
+INFO 2025-09-29 10:37:09,138 views 22472 14760 Cache HIT for +17182222222
+INFO 2025-09-29 10:37:09,228 basehttp 22472 14760 "GET /api/search/phone/117182222222/ HTTP/1.1" 200 343
+INFO 2025-09-29 10:37:26,497 views 22472 21448 === Phone search started for: 917182222222 ===
+INFO 2025-09-29 10:37:26,504 utils 22472 21448 Parsing: 917182222222 -> 917182222222
+INFO 2025-09-29 10:37:26,548 utils 22472 21448 Successfully parsed with IN region: Country Code: 91
+INFO 2025-09-29 10:37:26,548 utils 22472 21448 Parsed details - Country: IN, National: 7182222222
+INFO 2025-09-29 10:37:26,559 views 22472 21448 Normalized number: +917182222222
+INFO 2025-09-29 10:37:26,561 views 22472 21448 Cache MISS for +917182222222 - generating new data
+INFO 2025-09-29 10:37:26,564 views 22472 21448 Region code: IN
+WARNING 2025-09-29 10:37:26,567 views 22472 21448 Could not get country name: module 'phonenumbers' has no attribute 'geocoder'
+WARNING 2025-09-29 10:37:26,572 views 22472 21448 Could not get location: module 'phonenumbers' has no attribute 'geocoder'
+INFO 2025-09-29 10:37:26,607 views 22472 21448 Successfully processed IN number: +91 7182 222 222
+INFO 2025-09-29 10:37:26,609 views 22472 21448 Cached result for +917182222222
+INFO 2025-09-29 10:37:26,698 views 22472 21448 === Success! Returning result ===
+INFO 2025-09-29 10:37:26,719 basehttp 22472 21448 "GET /api/search/phone/917182222222/ HTTP/1.1" 200 342
+INFO 2025-09-29 10:37:46,113 views 22472 17396 === Phone search started for: 918506067189 ===
+INFO 2025-09-29 10:37:46,113 utils 22472 17396 Parsing: 918506067189 -> 918506067189
+INFO 2025-09-29 10:37:46,127 utils 22472 17396 Successfully parsed with IN region: Country Code: 91
+INFO 2025-09-29 10:37:46,129 utils 22472 17396 Parsed details - Country: IN, National: 8506067189
+INFO 2025-09-29 10:37:46,129 views 22472 17396 Normalized number: +918506067189
+INFO 2025-09-29 10:37:46,135 views 22472 17396 Cache HIT for +918506067189
+INFO 2025-09-29 10:37:46,239 basehttp 22472 17396 "GET /api/search/phone/918506067189/ HTTP/1.1" 200 329
+INFO 2025-09-29 10:39:53,946 views 22472 11340 === Phone search started for: 918506067189 ===
+INFO 2025-09-29 10:39:53,964 utils 22472 11340 Parsing: 918506067189 -> 918506067189
+INFO 2025-09-29 10:39:53,985 utils 22472 11340 Successfully parsed with IN region: Country Code: 91
+INFO 2025-09-29 10:39:53,989 utils 22472 11340 Parsed details - Country: IN, National: 8506067189
+INFO 2025-09-29 10:39:53,996 views 22472 11340 Normalized number: +918506067189
+INFO 2025-09-29 10:39:54,004 views 22472 11340 Cache HIT for +918506067189
+INFO 2025-09-29 10:39:54,165 basehttp 22472 11340 "GET /api/search/phone/918506067189/ HTTP/1.1" 200 329
+INFO 2025-09-29 10:41:43,344 basehttp 22472 1668 "OPTIONS /api/search/phone/%2B918506067189/ HTTP/1.1" 200 0
+INFO 2025-09-29 10:41:43,417 views 22472 1668 === Phone search started for: +918506067189 ===
+INFO 2025-09-29 10:41:43,420 utils 22472 1668 Parsing: +918506067189 -> +918506067189
+INFO 2025-09-29 10:41:43,435 utils 22472 1668 Successfully parsed with +: Country Code: 91 National Number: 8506067189
+INFO 2025-09-29 10:41:43,437 utils 22472 1668 Parsed details - Country: IN, National: 8506067189
+INFO 2025-09-29 10:41:43,439 views 22472 1668 Normalized number: +918506067189
+INFO 2025-09-29 10:41:43,445 views 22472 1668 Cache HIT for +918506067189
+INFO 2025-09-29 10:41:43,632 basehttp 22472 1668 "GET /api/search/phone/%2B918506067189/ HTTP/1.1" 200 329
+INFO 2025-09-29 10:49:14,768 views 22472 16900 === Phone search started for: +918506067189 ===
+INFO 2025-09-29 10:49:14,791 utils 22472 16900 Parsing: +918506067189 -> +918506067189
+INFO 2025-09-29 10:49:14,806 utils 22472 16900 Successfully parsed with +: Country Code: 91 National Number: 8506067189
+INFO 2025-09-29 10:49:14,816 utils 22472 16900 Parsed details - Country: IN, National: 8506067189
+INFO 2025-09-29 10:49:14,819 views 22472 16900 Normalized number: +918506067189
+INFO 2025-09-29 10:49:14,826 views 22472 16900 Cache HIT for +918506067189
+INFO 2025-09-29 10:49:15,011 basehttp 22472 16900 "GET /api/search/phone/%2B918506067189/ HTTP/1.1" 200 329
+INFO 2025-09-29 10:53:55,981 autoreload 22472 17604 C:\Users\manik\OneDrive\Desktop\reverse-phone-lookup\backend\lookup\views.py changed, reloading.
+INFO 2025-09-29 10:53:57,341 autoreload 27464 26476 Watching for file changes with StatReloader
+INFO 2025-09-29 10:54:06,338 views 27464 20848 === Phone search for: +918506067189 ===
+INFO 2025-09-29 10:54:06,338 utils 27464 20848 Parsing: +918506067189 -> +918506067189
+INFO 2025-09-29 10:54:06,338 utils 27464 20848 Successfully parsed with +: Country Code: 91 National Number: 8506067189
+INFO 2025-09-29 10:54:06,356 utils 27464 20848 Parsed details - Country: IN, National: 8506067189
+INFO 2025-09-29 10:54:06,357 views 27464 20848 Normalized: +918506067189
+INFO 2025-09-29 10:54:06,357 views 27464 20848 Cache MISS - processing +918506067189
+INFO 2025-09-29 10:54:06,357 views 27464 20848 Region: IN
+INFO 2025-09-29 10:54:06,357 views 27464 20848 Indian number - Location: Uttar Pradesh
+INFO 2025-09-29 10:54:06,389 views 27464 20848 Result: {'number': '+918506067189', 'formatted_number': '+91 85060 67189', 'valid': True, 'country_code': 'IN', 'country_name': 'India', 'location': 'Uttar Pradesh', 'carrier': 'Idea', 'line_type': 'mobile', 'source': 'phonenumbers', 'cached': False, 'affiliate_url': 'https://www.truthfinder.com/?a=default&o=100265&utm_source=numberlookup'}
+INFO 2025-09-29 10:54:06,404 basehttp 27464 20848 "GET /api/search/phone/%2B918506067189/ HTTP/1.1" 200 334
+INFO 2025-09-29 10:54:21,518 basehttp 27464 1968 "OPTIONS /api/search/phone/%2B917182222222/ HTTP/1.1" 200 0
+INFO 2025-09-29 10:54:21,518 views 27464 1968 === Phone search for: +917182222222 ===
+INFO 2025-09-29 10:54:21,518 utils 27464 1968 Parsing: +917182222222 -> +917182222222
+INFO 2025-09-29 10:54:21,518 utils 27464 1968 Successfully parsed with +: Country Code: 91 National Number: 7182222222
+INFO 2025-09-29 10:54:21,529 utils 27464 1968 Parsed details - Country: IN, National: 7182222222
+INFO 2025-09-29 10:54:21,529 views 27464 1968 Normalized: +917182222222
+INFO 2025-09-29 10:54:21,530 views 27464 1968 Cache MISS - processing +917182222222
+INFO 2025-09-29 10:54:21,530 views 27464 1968 Region: IN
+INFO 2025-09-29 10:54:21,531 views 27464 1968 Indian number - Location: Delhi NCR
+INFO 2025-09-29 10:54:21,531 views 27464 1968 Result: {'number': '+917182222222', 'formatted_number': '+91 7182 222 222', 'valid': True, 'country_code': 'IN', 'country_name': 'India', 'location': 'Delhi NCR', 'carrier': 'Bharti Airtel', 'line_type': 'landline', 'source': 'phonenumbers', 'cached': False, 'affiliate_url': 'https://www.truthfinder.com/?a=default&o=100265&utm_source=numberlookup'}
+INFO 2025-09-29 10:54:21,542 basehttp 27464 1968 "GET /api/search/phone/%2B917182222222/ HTTP/1.1" 200 342
+INFO 2025-09-29 10:54:39,551 views 27464 24280 === Phone search for: +918506067189 ===
+INFO 2025-09-29 10:54:39,551 utils 27464 24280 Parsing: +918506067189 -> +918506067189
+INFO 2025-09-29 10:54:39,551 utils 27464 24280 Successfully parsed with +: Country Code: 91 National Number: 8506067189
+INFO 2025-09-29 10:54:39,551 utils 27464 24280 Parsed details - Country: IN, National: 8506067189
+INFO 2025-09-29 10:54:39,551 views 27464 24280 Normalized: +918506067189
+INFO 2025-09-29 10:54:39,551 views 27464 24280 Cache HIT for +918506067189
+INFO 2025-09-29 10:54:39,618 basehttp 27464 24280 "GET /api/search/phone/%2B918506067189/ HTTP/1.1" 200 333
+INFO 2025-09-29 10:55:57,892 autoreload 27464 26476 C:\Users\manik\OneDrive\Desktop\reverse-phone-lookup\backend\lookup\views.py changed, reloading.
+INFO 2025-09-29 10:55:58,675 autoreload 11980 21828 Watching for file changes with StatReloader
+INFO 2025-09-29 10:56:03,122 views 11980 884 === Phone search started for: +918506067189 ===
+INFO 2025-09-29 10:56:03,137 utils 11980 884 Parsing: +918506067189 -> +918506067189
+INFO 2025-09-29 10:56:03,142 utils 11980 884 Successfully parsed with +: Country Code: 91 National Number: 8506067189
+INFO 2025-09-29 10:56:03,158 utils 11980 884 Parsed details - Country: IN, National: 8506067189
+INFO 2025-09-29 10:56:03,158 views 11980 884 Normalized number: +918506067189
+INFO 2025-09-29 10:56:03,159 views 11980 884 Cache MISS for +918506067189 - generating new data
+INFO 2025-09-29 10:56:03,159 views 11980 884 Region code: IN
+WARNING 2025-09-29 10:56:03,159 views 11980 884 Could not get country name: module 'phonenumbers' has no attribute 'geocoder'
+WARNING 2025-09-29 10:56:03,161 views 11980 884 Could not get location: module 'phonenumbers' has no attribute 'geocoder'
+INFO 2025-09-29 10:56:03,191 views 11980 884 Successfully processed IN number: +91 85060 67189
+INFO 2025-09-29 10:56:03,192 views 11980 884 Cached result for +918506067189
+INFO 2025-09-29 10:56:03,196 views 11980 884 === Success! Returning result ===
+INFO 2025-09-29 10:56:03,196 basehttp 11980 884 "GET /api/search/phone/%2B918506067189/ HTTP/1.1" 200 330
+INFO 2025-09-29 10:56:16,949 basehttp 11980 6728 "OPTIONS /api/search/phone/%2B117182222222/ HTTP/1.1" 200 0
+INFO 2025-09-29 10:56:16,956 views 11980 6728 === Phone search started for: +117182222222 ===
+INFO 2025-09-29 10:56:16,956 utils 11980 6728 Parsing: +117182222222 -> +117182222222
+INFO 2025-09-29 10:56:16,979 utils 11980 6728 Successfully parsed with +: Country Code: 1 National Number: 7182222222
+INFO 2025-09-29 10:56:17,012 utils 11980 6728 Parsed details - Country: US, National: 7182222222
+INFO 2025-09-29 10:56:17,020 views 11980 6728 Normalized number: +17182222222
+INFO 2025-09-29 10:56:17,023 views 11980 6728 Cache MISS for +17182222222 - generating new data
+INFO 2025-09-29 10:56:17,025 views 11980 6728 Region code: US
+WARNING 2025-09-29 10:56:17,027 views 11980 6728 Could not get country name: module 'phonenumbers' has no attribute 'geocoder'
+WARNING 2025-09-29 10:56:17,029 views 11980 6728 Could not get location: module 'phonenumbers' has no attribute 'geocoder'
+INFO 2025-09-29 10:56:17,029 views 11980 6728 Successfully processed US number: (718) 222-2222
+INFO 2025-09-29 10:56:17,036 views 11980 6728 Cached result for +17182222222
+INFO 2025-09-29 10:56:17,089 views 11980 6728 === Success! Returning result ===
+INFO 2025-09-29 10:56:17,091 basehttp 11980 6728 "GET /api/search/phone/%2B117182222222/ HTTP/1.1" 200 344
+INFO 2025-09-29 10:57:43,426 autoreload 11980 21828 C:\Users\manik\OneDrive\Desktop\reverse-phone-lookup\backend\lookup\views.py changed, reloading.
+INFO 2025-09-29 10:57:44,447 autoreload 9324 8636 Watching for file changes with StatReloader
+INFO 2025-09-29 10:57:47,977 views 9324 18456 === Phone search for: +117182222222 ===
+INFO 2025-09-29 10:57:47,979 utils 9324 18456 Parsing: +117182222222 -> +117182222222
+INFO 2025-09-29 10:57:47,987 utils 9324 18456 Successfully parsed with +: Country Code: 1 National Number: 7182222222
+INFO 2025-09-29 10:57:47,995 utils 9324 18456 Parsed details - Country: US, National: 7182222222
+INFO 2025-09-29 10:57:47,995 views 9324 18456 Normalized: +17182222222
+INFO 2025-09-29 10:57:47,996 views 9324 18456 Cache MISS - processing +17182222222
+INFO 2025-09-29 10:57:47,996 views 9324 18456 Region: US
+INFO 2025-09-29 10:57:47,998 views 9324 18456 US number - Location: Brooklyn/Queens, NY
+INFO 2025-09-29 10:57:48,027 views 9324 18456 Result: {'number': '+17182222222', 'formatted_number': '(718) 222-2222', 'valid': True, 'country_code': 'US', 'country_name': 'United States', 'location': 'Brooklyn/Queens, NY', 'carrier': 'T-Mobile', 'line_type': 'mobile', 'source': 'phonenumbers', 'cached': False, 'affiliate_url': 'https://www.truthfinder.com/?a=default&o=100265&utm_source=numberlookup'}
+INFO 2025-09-29 10:57:48,027 basehttp 9324 18456 "GET /api/search/phone/%2B117182222222/ HTTP/1.1" 200 350
+INFO 2025-09-29 10:57:52,993 views 9324 18456 === Phone search for: +117182222222 ===
+INFO 2025-09-29 10:57:52,993 utils 9324 18456 Parsing: +117182222222 -> +117182222222
+INFO 2025-09-29 10:57:52,993 utils 9324 18456 Successfully parsed with +: Country Code: 1 National Number: 7182222222
+INFO 2025-09-29 10:57:53,008 utils 9324 18456 Parsed details - Country: US, National: 7182222222
+INFO 2025-09-29 10:57:53,010 views 9324 18456 Normalized: +17182222222
+INFO 2025-09-29 10:57:53,012 views 9324 18456 Cache HIT for +17182222222
+INFO 2025-09-29 10:57:53,078 basehttp 9324 18456 "GET /api/search/phone/%2B117182222222/ HTTP/1.1" 200 349
+INFO 2025-09-29 10:57:59,741 views 9324 18456 === Phone search for: +117182222222 ===
+INFO 2025-09-29 10:57:59,743 utils 9324 18456 Parsing: +117182222222 -> +117182222222
+INFO 2025-09-29 10:57:59,744 utils 9324 18456 Successfully parsed with +: Country Code: 1 National Number: 7182222222
+INFO 2025-09-29 10:57:59,746 utils 9324 18456 Parsed details - Country: US, National: 7182222222
+INFO 2025-09-29 10:57:59,748 views 9324 18456 Normalized: +17182222222
+INFO 2025-09-29 10:57:59,748 views 9324 18456 Cache HIT for +17182222222
+INFO 2025-09-29 10:57:59,818 basehttp 9324 18456 "GET /api/search/phone/%2B117182222222/ HTTP/1.1" 200 349
+INFO 2025-09-29 10:58:04,121 views 9324 18456 === Phone search for: +117182222222 ===
+INFO 2025-09-29 10:58:04,121 utils 9324 18456 Parsing: +117182222222 -> +117182222222
+INFO 2025-09-29 10:58:04,121 utils 9324 18456 Successfully parsed with +: Country Code: 1 National Number: 7182222222
+INFO 2025-09-29 10:58:04,121 utils 9324 18456 Parsed details - Country: US, National: 7182222222
+INFO 2025-09-29 10:58:04,121 views 9324 18456 Normalized: +17182222222
+INFO 2025-09-29 10:58:04,121 views 9324 18456 Cache HIT for +17182222222
+INFO 2025-09-29 10:58:04,158 basehttp 9324 18456 "GET /api/search/phone/%2B117182222222/ HTTP/1.1" 200 349
+INFO 2025-09-29 10:58:14,459 views 9324 12320 === Phone search for: +918506067189 ===
+INFO 2025-09-29 10:58:14,459 utils 9324 12320 Parsing: +918506067189 -> +918506067189
+INFO 2025-09-29 10:58:14,472 utils 9324 12320 Successfully parsed with +: Country Code: 91 National Number: 8506067189
+INFO 2025-09-29 10:58:14,535 utils 9324 12320 Parsed details - Country: IN, National: 8506067189
+INFO 2025-09-29 10:58:14,550 views 9324 12320 Normalized: +918506067189
+INFO 2025-09-29 10:58:14,557 views 9324 12320 Cache MISS - processing +918506067189
+INFO 2025-09-29 10:58:14,557 views 9324 12320 Region: IN
+INFO 2025-09-29 10:58:14,597 views 9324 12320 Indian number - Location: Uttar Pradesh
+INFO 2025-09-29 10:58:14,602 views 9324 12320 Result: {'number': '+918506067189', 'formatted_number': '+91 85060 67189', 'valid': True, 'country_code': 'IN', 'country_name': 'India', 'location': 'Uttar Pradesh', 'carrier': 'Idea', 'line_type': 'mobile', 'source': 'phonenumbers', 'cached': False, 'affiliate_url': 'https://www.truthfinder.com/?a=default&o=100265&utm_source=numberlookup'}
+INFO 2025-09-29 10:58:14,661 basehttp 9324 12320 "GET /api/search/phone/%2B918506067189/ HTTP/1.1" 200 334
+INFO 2025-09-29 10:58:31,575 views 9324 12320 === Phone search for: +917182222222 ===
+INFO 2025-09-29 10:58:31,575 utils 9324 12320 Parsing: +917182222222 -> +917182222222
+INFO 2025-09-29 10:58:31,575 utils 9324 12320 Successfully parsed with +: Country Code: 91 National Number: 7182222222
+INFO 2025-09-29 10:58:31,592 utils 9324 12320 Parsed details - Country: IN, National: 7182222222
+INFO 2025-09-29 10:58:31,602 views 9324 12320 Normalized: +917182222222
+INFO 2025-09-29 10:58:31,606 views 9324 12320 Cache MISS - processing +917182222222
+INFO 2025-09-29 10:58:31,610 views 9324 12320 Region: IN
+INFO 2025-09-29 10:58:31,610 views 9324 12320 Indian number - Location: Delhi NCR
+INFO 2025-09-29 10:58:31,610 views 9324 12320 Result: {'number': '+917182222222', 'formatted_number': '+91 7182 222 222', 'valid': True, 'country_code': 'IN', 'country_name': 'India', 'location': 'Delhi NCR', 'carrier': 'Bharti Airtel', 'line_type': 'landline', 'source': 'phonenumbers', 'cached': False, 'affiliate_url': 'https://www.truthfinder.com/?a=default&o=100265&utm_source=numberlookup'}
+INFO 2025-09-29 10:58:31,704 basehttp 9324 12320 "GET /api/search/phone/%2B917182222222/ HTTP/1.1" 200 342
+INFO 2025-09-29 10:59:04,543 views 9324 12320 === Phone search for: +117182222222 ===
+INFO 2025-09-29 10:59:04,545 utils 9324 12320 Parsing: +117182222222 -> +117182222222
+INFO 2025-09-29 10:59:04,551 utils 9324 12320 Successfully parsed with +: Country Code: 1 National Number: 7182222222
+INFO 2025-09-29 10:59:04,554 utils 9324 12320 Parsed details - Country: US, National: 7182222222
+INFO 2025-09-29 10:59:04,554 views 9324 12320 Normalized: +17182222222
+INFO 2025-09-29 10:59:04,560 views 9324 12320 Cache HIT for +17182222222
+INFO 2025-09-29 10:59:04,638 basehttp 9324 12320 "GET /api/search/phone/%2B117182222222/ HTTP/1.1" 200 349
+INFO 2025-09-29 10:59:14,446 views 9324 12320 === Phone search for: +917182222222 ===
+INFO 2025-09-29 10:59:14,446 utils 9324 12320 Parsing: +917182222222 -> +917182222222
+INFO 2025-09-29 10:59:14,446 utils 9324 12320 Successfully parsed with +: Country Code: 91 National Number: 7182222222
+INFO 2025-09-29 10:59:14,446 utils 9324 12320 Parsed details - Country: IN, National: 7182222222
+INFO 2025-09-29 10:59:14,446 views 9324 12320 Normalized: +917182222222
+INFO 2025-09-29 10:59:14,446 views 9324 12320 Cache HIT for +917182222222
+INFO 2025-09-29 10:59:14,463 basehttp 9324 12320 "GET /api/search/phone/%2B917182222222/ HTTP/1.1" 200 341
+INFO 2025-09-29 11:03:09,103 views 9324 5320 === Phone search for: +17182222222 ===
+INFO 2025-09-29 11:03:09,118 utils 9324 5320 Parsing: +17182222222 -> +17182222222
+INFO 2025-09-29 11:03:09,155 utils 9324 5320 Successfully parsed with +: Country Code: 1 National Number: 7182222222
+INFO 2025-09-29 11:03:09,163 utils 9324 5320 Parsed details - Country: US, National: 7182222222
+INFO 2025-09-29 11:03:09,170 views 9324 5320 Normalized: +17182222222
+INFO 2025-09-29 11:03:09,178 views 9324 5320 Cache HIT for +17182222222
+INFO 2025-09-29 11:03:09,368 basehttp 9324 5320 "GET /api/search/phone/%2B17182222222/ HTTP/1.1" 200 349
+INFO 2025-09-29 11:03:15,201 views 9324 5320 === Phone search for: +17182222222 ===
+INFO 2025-09-29 11:03:15,203 utils 9324 5320 Parsing: +17182222222 -> +17182222222
+INFO 2025-09-29 11:03:15,203 utils 9324 5320 Successfully parsed with +: Country Code: 1 National Number: 7182222222
+INFO 2025-09-29 11:03:15,203 utils 9324 5320 Parsed details - Country: US, National: 7182222222
+INFO 2025-09-29 11:03:15,203 views 9324 5320 Normalized: +17182222222
+INFO 2025-09-29 11:03:15,203 views 9324 5320 Cache HIT for +17182222222
+INFO 2025-09-29 11:03:15,271 basehttp 9324 5320 "GET /api/search/phone/%2B17182222222/ HTTP/1.1" 200 349
+INFO 2025-09-29 11:03:36,740 autoreload 9324 8636 C:\Users\manik\OneDrive\Desktop\reverse-phone-lookup\backend\lookup\utils.py changed, reloading.
+INFO 2025-09-29 11:03:37,839 autoreload 26524 3632 Watching for file changes with StatReloader
+INFO 2025-09-29 11:03:41,762 views 26524 16020 === Phone search for: +17182222222 ===
+INFO 2025-09-29 11:03:41,763 views 26524 16020 Normalized: +17182222222
+INFO 2025-09-29 11:03:41,763 views 26524 16020 Cache MISS - processing +17182222222
+INFO 2025-09-29 11:03:41,780 views 26524 16020 Region: US
+INFO 2025-09-29 11:03:41,780 views 26524 16020 US number - Location: Brooklyn/Queens, NY
+INFO 2025-09-29 11:03:41,831 views 26524 16020 Result: {'number': '+17182222222', 'formatted_number': '(718) 222-2222', 'valid': True, 'country_code': 'US', 'country_name': 'United States', 'location': 'Brooklyn/Queens, NY', 'carrier': 'T-Mobile', 'line_type': 'mobile', 'source': 'phonenumbers', 'cached': False, 'affiliate_url': 'https://www.truthfinder.com/?a=default&o=100265&utm_source=numberlookup'}
+INFO 2025-09-29 11:03:41,839 basehttp 26524 16020 "GET /api/search/phone/%2B17182222222/ HTTP/1.1" 200 350
+INFO 2025-09-29 11:03:46,828 views 26524 16020 === Phone search for: +17182222222 ===
+INFO 2025-09-29 11:03:46,828 views 26524 16020 Normalized: +17182222222
+INFO 2025-09-29 11:03:46,832 views 26524 16020 Cache HIT for +17182222222
+INFO 2025-09-29 11:03:46,870 basehttp 26524 16020 "GET /api/search/phone/%2B17182222222/ HTTP/1.1" 200 349
+INFO 2025-09-29 11:08:22,853 autoreload 26524 3632 C:\Users\manik\OneDrive\Desktop\reverse-phone-lookup\backend\lookup\views.py changed, reloading.
+INFO 2025-09-29 11:08:34,231 autoreload 26048 24432 Watching for file changes with StatReloader
+INFO 2025-09-29 11:08:51,834 views 26048 12956 === Phone search for: +17182222222 ===
+INFO 2025-09-29 11:08:51,906 views 26048 12956 Normalized: +17182222222
+INFO 2025-09-29 11:08:51,908 views 26048 12956 Cache MISS - processing +17182222222
+INFO 2025-09-29 11:08:51,908 views 26048 12956 Result: Location=Brooklyn/Queens, New York, Carrier=T-Mobile
+INFO 2025-09-29 11:08:51,990 basehttp 26048 12956 "GET /api/search/phone/%2B17182222222/ HTTP/1.1" 200 376
+INFO 2025-09-29 12:24:11,448 basehttp 26048 6504 "OPTIONS /api/search/phone/%2B17182222222/ HTTP/1.1" 200 0
+INFO 2025-09-29 12:24:11,513 views 26048 6504 === Phone search for: +17182222222 ===
+INFO 2025-09-29 12:24:11,521 views 26048 6504 Normalized: +17182222222
+INFO 2025-09-29 12:24:11,533 views 26048 6504 Cache MISS - processing +17182222222
+INFO 2025-09-29 12:24:11,535 views 26048 6504 Result: Location=Brooklyn/Queens, New York, Carrier=T-Mobile
+INFO 2025-09-29 12:24:11,618 basehttp 26048 6504 "GET /api/search/phone/%2B17182222222/ HTTP/1.1" 200 376
+INFO 2025-09-29 12:24:32,882 autoreload 11628 7844 Watching for file changes with StatReloader
+WARNING 2025-09-29 12:24:39,148 log 11628 26656 Not Found: /
+WARNING 2025-09-29 12:24:39,150 basehttp 11628 26656 "GET / HTTP/1.1" 404 2300
+WARNING 2025-09-29 12:24:39,396 log 11628 26656 Not Found: /favicon.ico
+WARNING 2025-09-29 12:24:39,396 basehttp 11628 26656 "GET /favicon.ico HTTP/1.1" 404 2351
+INFO 2025-09-29 12:27:59,303 autoreload 11628 7844 C:\Users\manik\OneDrive\Desktop\reverse-phone-lookup\backend\phone_lookup_api\urls.py changed, reloading.
+INFO 2025-09-29 12:28:00,523 autoreload 23664 10496 Watching for file changes with StatReloader
+INFO 2025-09-29 12:28:20,502 basehttp 23664 9104 "GET / HTTP/1.1" 200 168
+INFO 2025-09-29 12:30:16,959 basehttp 23664 21624 "GET / HTTP/1.1" 200 168
+INFO 2025-09-29 12:31:41,393 autoreload 5308 25760 Watching for file changes with StatReloader
+INFO 2025-09-29 12:47:08,452 basehttp 5308 8152 "OPTIONS /api/search/phone/%2B18506067189/ HTTP/1.1" 200 0
+INFO 2025-09-29 12:47:08,591 views 5308 8152 === Phone search for: +18506067189 ===
+INFO 2025-09-29 12:47:08,842 views 5308 8152 Normalized: +18506067189
+INFO 2025-09-29 12:47:08,858 views 5308 8152 Cache MISS - processing +18506067189
+INFO 2025-09-29 12:47:08,865 views 5308 8152 Result: Location=Tallahassee, Florida, Carrier=Wireless Carrier
+INFO 2025-09-29 12:47:09,131 basehttp 5308 8152 "GET /api/search/phone/%2B18506067189/ HTTP/1.1" 200 379
+INFO 2025-09-29 14:37:14,124 autoreload 12628 9092 Watching for file changes with StatReloader
+INFO 2025-09-29 15:02:08,146 autoreload 12628 9092 C:\Users\manik\OneDrive\Desktop\reverse-phone-lookup\backend\lookup\urls.py changed, reloading.
+INFO 2025-09-29 15:02:22,186 autoreload 17740 16708 Watching for file changes with StatReloader
+INFO 2025-09-29 15:02:40,053 autoreload 17740 16708 C:\Users\manik\OneDrive\Desktop\reverse-phone-lookup\backend\lookup\views.py changed, reloading.
+INFO 2025-09-29 15:02:50,157 autoreload 21948 19280 Watching for file changes with StatReloader
+INFO 2025-09-29 15:10:49,942 basehttp 21948 8228 "OPTIONS /api/search/people/?first_name=Mike+&last_name=Johnson HTTP/1.1" 200 0
+INFO 2025-09-29 15:10:50,095 views 21948 8228 === People search: Mike Johnson ===
+INFO 2025-09-29 15:10:50,109 views 21948 8228 Cache MISS - processing Mike Johnson
+INFO 2025-09-29 15:10:50,342 basehttp 21948 8228 "GET /api/search/people/?first_name=Mike+&last_name=Johnson HTTP/1.1" 200 995
+INFO 2025-09-29 15:20:09,743 basehttp 21948 3944 "OPTIONS /api/search/people/?first_name=Mike&last_name=Johnson HTTP/1.1" 200 0
+INFO 2025-09-29 15:20:09,803 views 21948 3944 === People search: Mike Johnson ===
+INFO 2025-09-29 15:20:09,817 views 21948 3944 Cache HIT for Mike Johnson
+INFO 2025-09-29 15:20:10,024 basehttp 21948 3944 "GET /api/search/people/?first_name=Mike&last_name=Johnson HTTP/1.1" 200 994
+INFO 2025-09-29 15:28:02,677 autoreload 21948 19280 C:\Users\manik\OneDrive\Desktop\reverse-phone-lookup\backend\lookup\views.py changed, reloading.
+INFO 2025-09-29 15:28:03,874 autoreload 17980 440 Watching for file changes with StatReloader
+INFO 2025-09-29 15:28:09,707 views 17980 12076 === People search: Mike Johnson ===
+INFO 2025-09-29 15:28:09,707 views 17980 12076 Cache MISS - generating data for Mike Johnson
+ERROR 2025-09-29 15:28:09,707 views 17980 12076 People search error: name 'generate_realistic_people_data' is not defined
+Traceback (most recent call last):
+  File "C:\Users\manik\OneDrive\Desktop\reverse-phone-lookup\backend\lookup\views.py", line 510, in people_search
+    person_data = generate_realistic_people_data(first_name, last_name, city, state)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'generate_realistic_people_data' is not defined
+ERROR 2025-09-29 15:28:09,707 log 17980 12076 Internal Server Error: /api/search/people/
+ERROR 2025-09-29 15:28:09,707 basehttp 17980 12076 "GET /api/search/people/?first_name=Mike&last_name=Johnson HTTP/1.1" 500 75
+INFO 2025-09-29 15:28:09,729 basehttp 17980 15200 "OPTIONS /api/search/people/?first_name=Mike&last_name=Johnson HTTP/1.1" 200 0
+INFO 2025-09-29 15:28:09,730 views 17980 15200 === People search: Mike Johnson ===
+INFO 2025-09-29 15:28:09,730 views 17980 15200 Cache MISS - generating data for Mike Johnson
+ERROR 2025-09-29 15:28:09,730 views 17980 15200 People search error: name 'generate_realistic_people_data' is not defined
+Traceback (most recent call last):
+  File "C:\Users\manik\OneDrive\Desktop\reverse-phone-lookup\backend\lookup\views.py", line 510, in people_search
+    person_data = generate_realistic_people_data(first_name, last_name, city, state)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'generate_realistic_people_data' is not defined
+ERROR 2025-09-29 15:28:09,730 log 17980 15200 Internal Server Error: /api/search/people/
+ERROR 2025-09-29 15:28:09,730 basehttp 17980 15200 "GET /api/search/people/?first_name=Mike&last_name=Johnson HTTP/1.1" 500 75
+INFO 2025-09-29 15:28:20,827 autoreload 17980 440 C:\Users\manik\OneDrive\Desktop\reverse-phone-lookup\backend\lookup\views.py changed, reloading.
+INFO 2025-09-29 15:28:21,620 autoreload 21584 17920 Watching for file changes with StatReloader
+INFO 2025-09-29 15:28:32,055 views 21584 1688 === People search: Mike Johnson ===
+INFO 2025-09-29 15:28:32,055 views 21584 1688 Cache MISS - processing Mike Johnson
+INFO 2025-09-29 15:28:32,113 basehttp 21584 1688 "GET /api/search/people/?first_name=Mike&last_name=Johnson HTTP/1.1" 200 995
+INFO 2025-09-29 15:28:41,308 views 21584 21840 === People search: Mike Johnson ===
+INFO 2025-09-29 15:28:41,309 views 21584 21840 Cache HIT for Mike Johnson
+INFO 2025-09-29 15:28:41,343 basehttp 21584 21840 "GET /api/search/people/?first_name=Mike&last_name=Johnson HTTP/1.1" 200 994
+INFO 2025-09-29 15:29:00,800 views 21584 21472 === People search: Mike Johnson ===
+INFO 2025-09-29 15:29:00,800 views 21584 21472 Cache HIT for Mike Johnson
+INFO 2025-09-29 15:29:00,818 basehttp 21584 21472 "GET /api/search/people/?first_name=Mike&last_name=Johnson HTTP/1.1" 200 994
+INFO 2025-09-29 15:32:06,276 views 21584 19376 === People search: Mike Johnson ===
+INFO 2025-09-29 15:32:06,291 views 21584 19376 Cache HIT for Mike Johnson
+INFO 2025-09-29 15:32:06,359 basehttp 21584 19376 "GET /api/search/people/?first_name=Mike&last_name=Johnson HTTP/1.1" 200 994
+INFO 2025-09-29 15:32:13,742 views 21584 19376 === People search: Mike Johnson ===
+INFO 2025-09-29 15:32:13,742 views 21584 19376 Cache HIT for Mike Johnson
+INFO 2025-09-29 15:32:13,792 basehttp 21584 19376 "GET /api/search/people/?first_name=Mike&last_name=Johnson HTTP/1.1" 200 994
+INFO 2025-09-29 15:56:31,887 autoreload 21584 17920 C:\Users\manik\OneDrive\Desktop\reverse-phone-lookup\backend\lookup\urls.py changed, reloading.
+INFO 2025-09-29 15:56:33,226 autoreload 21496 21240 Watching for file changes with StatReloader
+INFO 2025-09-29 15:57:00,308 autoreload 21496 21240 C:\Users\manik\OneDrive\Desktop\reverse-phone-lookup\backend\lookup\views.py changed, reloading.
+INFO 2025-09-29 15:57:00,937 autoreload 8228 17708 Watching for file changes with StatReloader
+INFO 2025-09-29 15:59:30,121 autoreload 18044 22436 Watching for file changes with StatReloader
+INFO 2025-09-29 16:01:43,548 basehttp 18044 4000 "OPTIONS /api/search/address/?street=47+W+13th+St&city=New+York&state=NY HTTP/1.1" 200 0
+INFO 2025-09-29 16:01:43,618 views 18044 4000 === Address search: 47 W 13th St, New York, NY ===
+INFO 2025-09-29 16:01:43,729 views 18044 4000 Cache MISS - processing 47 W 13th St, New York, NY
+INFO 2025-09-29 16:01:43,784 basehttp 18044 4000 "GET /api/search/address/?street=47+W+13th+St&city=New+York&state=NY HTTP/1.1" 200 2003
+INFO 2025-09-29 16:06:42,526 views 18044 17420 === Address search: 47 W 13th St, New York, NY ===
+INFO 2025-09-29 16:06:42,526 views 18044 17420 Cache HIT for 47 W 13th St, New York, NY
+INFO 2025-09-29 16:06:42,579 basehttp 18044 17420 "GET /api/search/address/?street=47+W+13th+St&city=New+York&state=NY HTTP/1.1" 200 2002
+INFO 2025-09-29 16:07:10,860 views 18044 22052 === Address search: 47 W 13th St, New York, NY ===
+INFO 2025-09-29 16:07:10,860 views 18044 22052 Cache HIT for 47 W 13th St, New York, NY
+INFO 2025-09-29 16:07:10,884 basehttp 18044 22052 "GET /api/search/address/?street=47+W+13th+St&city=New+York&state=NY HTTP/1.1" 200 2002
+INFO 2025-09-29 16:21:55,519 autoreload 9316 10268 Watching for file changes with StatReloader
+INFO 2025-09-29 16:58:26,643 basehttp 9316 23052 "OPTIONS /api/search/people/?first_name=Mike&last_name=Johnson HTTP/1.1" 200 0
+INFO 2025-09-29 16:58:26,841 views 9316 23052 === People search: Mike Johnson ===
+INFO 2025-09-29 16:58:26,859 views 9316 23052 Cache MISS - processing Mike Johnson
+INFO 2025-09-29 16:58:27,032 basehttp 9316 23052 "GET /api/search/people/?first_name=Mike&last_name=Johnson HTTP/1.1" 200 995
+INFO 2025-09-29 17:00:51,337 views 9316 23204 === People search: Mike Johnson ===
+INFO 2025-09-29 17:00:51,345 views 9316 23204 Cache HIT for Mike Johnson
+INFO 2025-09-29 17:00:51,408 basehttp 9316 23204 "GET /api/search/people/?first_name=Mike&last_name=Johnson HTTP/1.1" 200 994
+INFO 2025-09-29 17:07:29,809 views 9316 16372 === People search: Mike Johnson ===
+INFO 2025-09-29 17:07:29,833 views 9316 16372 Cache HIT for Mike Johnson
+INFO 2025-09-29 17:07:29,908 basehttp 9316 16372 "GET /api/search/people/?first_name=Mike&last_name=Johnson HTTP/1.1" 200 994
+INFO 2025-09-29 19:56:49,350 autoreload 9316 10268 C:\Users\manik\OneDrive\Desktop\reverse-phone-lookup\backend\lookup\urls.py changed, reloading.
+INFO 2025-09-29 19:56:50,669 autoreload 16056 9984 Watching for file changes with StatReloader
+INFO 2025-09-29 19:57:51,194 autoreload 16056 9984 C:\Users\manik\OneDrive\Desktop\reverse-phone-lookup\backend\lookup\views.py changed, reloading.
+INFO 2025-09-29 19:57:51,899 autoreload 2916 8488 Watching for file changes with StatReloader
+INFO 2025-09-29 23:18:50,933 autoreload 11872 2544 Watching for file changes with StatReloader
